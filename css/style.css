@@ -300,6 +300,10 @@ img{
     gap: 1rem;
 }
 
+.settings{
+    margin-right: 1rem;
+}
+
 .home__settings-container{
     display: flex;
     justify-content: end;
@@ -310,7 +314,7 @@ img{
     display: flex;
     align-items: center;
     margin-left: var(--mb-1);
-    font-size: .8rem;
+    font-size: .9rem;
     font-weight: var(--font-semi-bold);
     font-style: italic;
     color: var(--text-color);

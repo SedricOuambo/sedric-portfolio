@@ -777,5 +777,19 @@ themeButton.addEventListener('click', () => {
     }
 });
 
+function initDarkMode(mode){
+    let displayLanguage2 = document.getElementById('home__language');
+    let displayMode2 = document.getElementById('display__mode');
+
+    const themeButton2 = document.getElementById('theme-button');
+    const darkTheme2 = 'dark-theme';
+    const iconTheme2 = 'uil-sun';
+
+    document.body.classList.toggle(darkTheme2);
+    themeButton2.classList.toggle(iconTheme2);
+    displayMode2.innerText = 'Dark mode';
+}
+
 //Load English Content first
+initDarkMode();
 setContent('EN');
