@@ -1,0 +1,292 @@
+[
+    {
+        "title": "home__title",
+        "EN":"Hi, I'am Sedric",
+        "FR":"Salut, je suis Sedric!"
+    } ,
+    {
+        "title": "home__subtitle",
+        "EN":"Backend developper",
+        "FR":"Développeur backend"
+    } ,
+    {
+        "title": "home__description",
+        "EN": "High level experience in web backend development and knowledge, producing quality work.",
+        "FR":"Expérience de haut niveau dans le développement web, produisant un travail de qualité."
+    } ,
+    {
+        "title": "contact__me",
+        "EN":"Contact Me",
+        "FR":"Me contacter"
+    } ,
+    {
+        "title": "home__srcoll-name",
+        "EN":"Scroll down",
+        "FR":"Aller en bas"
+    } ,
+    {
+        "title": "about__me",
+        "EN":"About Me",
+        "FR":"À propos de moi"
+    } ,
+    {
+        "title": "my__introduction",
+        "EN":"My introduction",
+        "FR":"Ma présentation"
+    } ,
+    {
+        "title": "about__description",
+        "EN":"A professional with 7 years of experience in programming combined with a solid training in IT and a strong ability to quickly acquire new knowledge, I am able to work effectively in agile mode, independently or as a team perfectly in French and medium English, I have strong knowledge in gathering customer needs and I also have a strong sense of organization and proven skills in coding techniques and computer program design.",
+        "FR":"Professionnel doté de 7 années d’expérience dans la programmation, combinées à une solide formation en Informatique et une forte aptitude à acquérir rapidement de nouvelles connaissances, je suis capable de travailler efficacement en mode agile, de façon autonome ou en équipe parfaitement en Français et moyennement en Anglais, je possède de fortes connaissances en recueil des besoins clients et,  je fais aussi preuve d’un solide sens de l’organisation et de compétences avérées en technique de codage et conception des programmes informatiques."
+    } ,
+    {
+        "title": "years",
+        "EN":"Years",
+        "FR":"Années"
+    } ,
+    {
+        "title": "years2",
+        "EN":"Years",
+        "FR":"Années"
+    } ,
+    {
+        "title": "years3",
+        "EN":"Years",
+        "FR":"Années"
+    } ,
+    {
+        "title": "experience-title1",
+        "EN":"experience",
+        "FR":"d'expérience"
+    } ,
+    {
+        "title": "experience-title2",
+        "EN":"Completed Project",
+        "FR":"de projets"
+    } ,
+    {
+        "title": "experience-title3",
+        "EN":"Teaching Computer Science",
+        "FR":"d'enseignement de l'Informatique"
+    } ,
+    {
+        "title": "download",
+        "EN":"Download my CV",
+        "FR":"Télécharger mon CV"
+    }  ,
+    {
+        "title": "home",
+        "EN":"Home",
+        "FR":"Accueil"
+    } ,
+    {
+        "title": "about",
+        "EN":"About",
+        "FR":"À propos"
+    } ,
+    {
+        "title": "skills",
+        "EN":"Skills",
+        "FR":"Compétences"
+    } ,
+    {
+        "title": "services",
+        "EN":"Services",
+        "FR":"Services"
+    } ,
+    {
+        "title": "portfolio",
+        "EN":"Portfolio",
+        "FR":"Portfolio"
+    } ,
+    {
+        "title": "contactme",
+        "EN":"Contact Me",
+        "FR":"Me Contacter"
+    } ,
+    {
+        "title": "skills__title",
+        "EN":"Skills",
+        "FR":"Compétences"
+    } ,
+    {
+        "title": "skills__subtitle",
+        "EN":"My technical level",
+        "FR":"Mon niveau technique"
+    } ,
+    {
+        "title": "frontend__header__skill",
+        "EN":"Frontend developper",
+        "FR":"Développeur Frontend"
+    } ,
+    {
+        "title": "frontend__years",
+        "EN":"More than 2 years",
+        "FR":"Plus de 2 années"
+    },
+    {
+        "title": "backend__header__skill",
+        "EN":"Backend developper",
+        "FR":"Développeur Backend"
+    } ,
+    {
+        "title": "backend__years",
+        "EN":"More than 2 years",
+        "FR":"Plus de 2 années"
+    } ,
+    {
+        "title": "teacher__header__skill",
+        "EN":"Computer Science Teacher",
+        "FR":"Enseignant d'Informatique"
+    } ,
+    {
+        "title": "teacher__years",
+        "EN":"More than 7 years",
+        "FR":"Plus de 7 années"
+    } ,
+    {
+        "title": "web__programming__skill",
+        "EN":"Frontend Web Programming",
+        "FR":"Programmation web client"
+    } ,
+    {
+        "title": "algorithm__skill",
+        "EN":"Introduction to Algorithms",
+        "FR":"Introduction à l'algorithmique"
+    } ,
+    {
+        "title": "architecture__skill",
+        "EN":"Computer architecture",
+        "FR":"Architecture de l'ordinateur"
+    } ,
+    {
+        "title": "networking__skill",
+        "EN":"Introduction to Networking",
+        "FR":"Introduction aux réseaux informatiques"
+    } ,
+    {
+        "title": "qualification__title",
+        "EN":"Qualification",
+        "FR":"Diplômes et expérience"
+    },
+    {
+        "title": "qualification_subtitle",
+        "EN":"My personnal journey",
+        "FR":"Mon parcours personnel"
+    },
+    {
+        "title": "education",
+        "EN":"Education",
+        "FR":"Éducation"
+    },
+    {
+        "title": "work",
+        "EN":"Work",
+        "FR":"Travail"
+    },
+    {
+        "title": "certificates",
+        "EN":"Certificates",
+        "FR":"Certificats"
+    },
+    {
+        "title": "computer__programmer__qualif",
+        "EN":"Ontario College Diploma in Computer Programming",
+        "FR":"DEC en Programmation Informatique"
+    },
+    {
+        "title": "computer__programmer__subqualif",
+        "EN":"La Cité Collégiale College, Ottawa, Canada",
+        "FR":"Collège La Cité, Ottawa, Canada"
+    },
+    {
+        "title": "qualif2",
+        "EN":"Bachelor's degree in Computer Network",
+        "FR":"Master 1 en réseaux informatiques"
+    },
+    {
+        "title": "subqualif2",
+        "EN":"University of Dschang, Cameroon",
+        "FR":"Université de Dschang; Cameroun"
+    },
+    {
+        "title": "qualif3",
+        "EN":"Computer Science Technical Teacher",
+        "FR":"Diplôme d'enseignant d'Informatique"
+    },
+    {
+        "title": "subqualif3",
+        "EN":"University of Bamenda, Cameroon",
+        "FR":"Université de Bamenda; Cameroun"
+    },
+    {
+        "title": "qualif4",
+        "EN":"Bachelor's degree in Mathematics and Computer Science",
+        "FR":"Licence en Mathématiques - Informatique"
+    },
+    {
+        "title": "subqualif4",
+        "EN":"University of Dschang, Cameroon",
+        "FR":"Université de Dschang; Cameroun"
+    },
+    {
+        "title": "work1",
+        "EN":"Computer Developper/Intern (40h/week)",
+        "FR":"Développeur/Stage (40h/semaine)"
+    },
+    {
+        "title": "subwork1",
+        "EN":"CEPI - La Cité Collégiale College, Ottawa, Canada",
+        "FR":"CEPI - La Cité Collégiale, Ottawa, Canada"
+    },
+    {
+        "title": "work2",
+        "EN":"Computer Science teacher",
+        "FR":"Enseignant d'Informatique"
+    },
+    {
+        "title": "subwork2",
+        "EN":"Technical High School Santchou, Cameroon",
+        "FR":"Lycée Technique de Santchou; Cameroun"
+    },
+    {
+        "title": "work3",
+        "EN":"Technical support",
+        "FR":"Soutien Technique"
+    },
+    {
+        "title": "subwork3",
+        "EN":"Technical High School Santchou, Cameroon",
+        "FR":"Lycée Technique de Santchou; Cameroun"
+    },
+    {
+        "title": "certif1",
+        "EN":"PCAP - Certified Associate in Python Programming",
+        "FR":"PCAP - Certifié niveau Associé en Programmation Python"
+    },
+    {
+        "title": "verif1",
+        "EN":"verification link",
+        "FR":"lien de vérification"
+    },
+    {
+        "title": "date1",
+        "EN":"August 18, 2023",
+        "FR":"18 août 2023"
+    },
+    {
+        "title": "certif2",
+        "EN":"Android Certified Application Developper",
+        "FR":"Développeur Certifié d'Application Android"
+    },
+    {
+        "title": "verif2",
+        "EN":"verification link",
+        "FR":"lien de vérification"
+    },
+    {
+        "title": "date2",
+        "EN":"October 23, 2023",
+        "FR":"23 Octobre 2023"
+    }
+]
