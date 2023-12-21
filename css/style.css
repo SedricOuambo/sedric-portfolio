@@ -623,7 +623,7 @@ img{
 }
 
 .qualification__button{
-    font-size: var(--h3-font-size);
+    font-size: var(--smaller-font-size);
     font-weight: var(--font-medium);
     cursor: pointer;
 }
@@ -643,9 +643,14 @@ img{
     column-gap: 1.5rem;
 }
 
+.qualification__title,
+.qualification__data h3{
+    font-size: var(--small-font-size);
+}
 .qualification__subtitle{
     display: inline-block;
-    font-size: var(--small-font-size);
+    font-size: .6rem;
+    margin-top: var(--mb-0-25);
     margin-bottom: var(--mb-1);
 }
 
@@ -1200,6 +1205,14 @@ img{
 
     .qualification__button{
         margin: 0 var(--mb-1);
+    }
+
+    .qualification__title,
+    .qualification__data h3{
+        font-size: var(--h2-font-size);
+    }
+    .qualification__subtitle{
+        font-size: var(--normal-font-size);
     }
 
     .qualification,
