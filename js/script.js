@@ -7,13 +7,13 @@ let dictionnary = [
     } ,
     {
         "title": "home__subtitle",
-        "EN":"Backend developper",
-        "FR":"Développeur backend"
+        "EN":"Analyst Programmer",
+        "FR":"Analyste-programmeur"
     } ,
     {
         "title": "home__description",
-        "EN": "High level experience in web backend development and knowledge, producing quality work.",
-        "FR":"Expérience de haut niveau dans le développement web, produisant un travail de qualité."
+        "EN": "High level experience in Computer Science, producing quality work.",
+        "FR":"Expérience de haut niveau dans le domaine de programmation Informatique, produisant un travail de qualité."
     } ,
     {
         "title": "contact__me",
@@ -462,8 +462,8 @@ let dictionnary = [
     },
     {
         "title": "footer__job",
-        "EN":"Backend developper",
-        "FR":"Développeur backend"
+        "EN":"Analyst Programmer",
+        "FR":"Analyste-programmeur"
     },
     {
         "title": "copy__right",
@@ -791,4 +791,4 @@ themeButton.addEventListener('click', () => {
 
 //Load English Content first
 // initDarkMode();
-setContent('EN');
+setContent('FR');
