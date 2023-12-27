@@ -795,6 +795,13 @@ img{
 }
 
 /******************** PORTFOLIO **********************/
+
+.portfolio__link-bloc{
+    display: flex;
+    flex-direction: column;
+    gap: .1rem;
+}
+
 .portfolio__container{
     overflow: initial;
 }
@@ -805,8 +812,9 @@ img{
 
 .portfolio__img{
     width: 265px;
-    border-radius: .5rem;
     justify-self: center;
+    object-fit: contain;
+    border-radius: .5rem;
 }
 
 .portfolio__title{
@@ -1274,6 +1282,10 @@ es */
 
 /* For large devices*/
 @media screen and (min-width: 1024px){
+    .portfolio__img{
+        width: 365px;
+    }
+
     .logo__img{
         width: 120px;
         margin-top: 1rem;
