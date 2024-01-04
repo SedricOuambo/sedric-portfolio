@@ -67,13 +67,13 @@ let dictionnary = [
     } ,
     {
         "title": "experience-title2",
-        "EN":"Completed Project",
+        "EN":"Projects",
         "FR":"de projets"
     } ,
     {
         "title": "experience-title3",
-        "EN":"Teaching Computer Science",
-        "FR":"d'enseignement de l'Informatique"
+        "EN":"Teaching",
+        "FR":"d'enseignement"
     } ,
     {
         "title": "download",
@@ -111,7 +111,7 @@ let dictionnary = [
         "FR":"Contact"
     } ,
     {
-        "title": "skills__title",
+        "title": "skills__section-title",
         "EN":"Skills",
         "FR":"Compétences"
     } ,
@@ -171,7 +171,7 @@ let dictionnary = [
         "FR":"Introduction aux réseaux informatiques"
     } ,
     {
-        "title": "qualification__title",
+        "title": "qualification__section-title",
         "EN":"Qualification",
         "FR":"Diplômes et expérience"
     },
@@ -282,7 +282,7 @@ let dictionnary = [
     },
     {
         "title": "certif2",
-        "EN":"Android Certified Application Developper",
+        "EN":"Android Certified Application Developer",
         "FR":"Développeur Certifié d'Application Android"
     },
     {
