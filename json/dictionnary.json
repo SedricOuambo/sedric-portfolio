@@ -456,13 +456,28 @@
     },
     {
         "title": "service__description43",
-        "EN":"I can teach Web Programming.",
-        "FR":"Je suis capable de dispenser des cours de programmation Web Client et Web serveur."
+        "EN":"I am able to teach introduction to frontend web programming.",
+        "FR":"Je suis capable de dispenser des cours d'introduction à la programmation Web Client."
     },
     {
         "title": "service__description44",
         "EN":"I can teach Android Programming using Kotlin and java.",
         "FR":"Je suis apte à dispenser des cours de programmation Android en utilisant les langages Kotlin et Java."
+    },
+    {
+        "title": "service__description45",
+        "EN":"I can teach Advanced web programming.",
+        "FR":"Je suis apte à dispenser des cours de programmation web Avancée."
+    },
+    {
+        "title": "service__description46",
+        "EN":"I am able to teach introduction to backend web programming.",
+        "FR":"Je suis apte à dispenser des cours d'intrduction à la programmation des serveurs web."
+    },
+    {
+        "title": "service__description47",
+        "EN":"I am able to teach Software Development.",
+        "FR":"Je suis apte à dispenser des cours de développement d'application de bureau."
     },
     {
         "title": "footer__job",
