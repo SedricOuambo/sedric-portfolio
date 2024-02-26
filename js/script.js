@@ -1,3 +1,28 @@
+/**************** Gestion de bloc portfolio********************/
+const content__bloc__applications = document.querySelectorAll('#content__bloc__applications');
+const titre__groupe = document.querySelectorAll('#titre__groupe');
+
+titre__groupe.forEach(bloc => {
+    bloc.addEventListener('click', () =>{
+        let isActive = bloc.nextElementSibling.classList.contains('active') ? true : false;
+        content__bloc__applications.forEach(element =>{
+            element.classList.add('masquer');
+        });
+
+        if(!isActive){
+            bloc.nextElementSibling.classList.remove('masquer');
+            bloc.nextElementSibling.classList.add('active');
+            bloc.getElementsByClassName('uil')[0].classList.remove('uil-angle-right-b');
+            bloc.getElementsByClassName('uil')[0].classList.add('uil-angle-down');
+        }
+        else{
+            bloc.nextElementSibling.classList.remove('active');
+            bloc.getElementsByClassName('uil')[0].classList.remove('uil-angle-down');
+            bloc.getElementsByClassName('uil')[0].classList.add('uil-angle-right-b');
+        }
+    });
+});
+
 /************************ MAMAGE LANGUAGE************************/
 const language_button = document.getElementById('home__language');
 const download_link = document.getElementById('download_link');
@@ -6,7 +31,7 @@ language_button.addEventListener('click', changeLanguage);
 
 async function changeLanguage(){
     const language = language_button.textContent.toString();
-    if(language === 'Français') await setContent('FR');
+    if(language === 'FR') await setContent('FR');
     else await setContent('EN');
 }
 
@@ -20,17 +45,17 @@ async function setContent(language){
     });
 
     if(language === 'FR'){
-        let displayMode2 = document.getElementById('display__mode');
-        let displayModeContent = displayMode2.innerText.toString();
-        language_button.textContent = 'English';
-        displayMode2.innerText = displayModeContent === 'Dark mode' ? 'Mode sombre' : 'Mode clair';
+        // let displayMode2 = document.getElementById('display__mode');
+        // let displayModeContent = displayMode2.innerText.toString();
+        language_button.textContent = 'EN';
+        // displayMode2.innerText = displayModeContent === 'Dark mode' ? 'Mode sombre' : 'Mode clair';
         download_link.setAttribute('href', './pdf/Ouambo_Silatchom_Sedric_CV_FR.pdf')
     }
     else{
-        let displayMode2 = document.getElementById('display__mode');
-        let displayModeContent = displayMode2.innerText.toString();
-        language_button.textContent = 'Français';
-        displayMode2.textContent = displayModeContent === 'Mode sombre' ? 'Dark mode' : 'Light mode';
+        // let displayMode2 = document.getElementById('display__mode');
+        // let displayModeContent = displayMode2.innerText.toString();
+        language_button.textContent = 'FR';
+        // displayMode2.textContent = displayModeContent === 'Mode sombre' ? 'Dark mode' : 'Light mode';
         download_link.setAttribute('href', './pdf/Ouambo_Silatchom_Sedric_CV_EN.pdf')
     }
 }

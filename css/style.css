@@ -154,6 +154,31 @@ img{
     height: auto;
 }
 
+.masquer{
+    display: none;
+}
+
+.titre__bloc__applications{
+    cursor: pointer;
+    font-size: var(--h2-font-size);
+    text-align: center;
+}
+
+.titre__groupe{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 2rem;
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+}
+
+.titre__groupe i{
+    font-size: var(--h2-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+}
+
 /******************** REUSABLE CSS CLASSES **********************/
 .section{
     padding: 3rem 0 1rem;
@@ -178,6 +203,7 @@ img{
     max-width: 768px;
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
+
 }
 
 .grid{
@@ -193,6 +219,62 @@ img{
     z-index: var(--z-fixed);
     background-color: var(--body-color);
 }
+
+.projet{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    border: 3px solid var(--first-color-alt);
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.galerie img{
+    /* width: calc(1920px/10);
+    height: calc(1080px/10); */
+    width: 6rem;
+    height: 6rem;
+    object-fit: fill;
+}
+
+.galerie{
+    margin: 1rem 2rem;
+    padding: 10px;
+}
+
+.projet__title,
+.projet__languages,
+.projet__en__savoir{
+    margin-bottom: var(--mb-1);
+}
+
+.projet__title{
+    font-size: var(--h1-font-size);
+    color: var(--first-color);
+}
+
+.projet__languages{
+    font-size: var(--h1-font-size);
+    color: var(--first-color);
+    font-weight: 800;
+}
+
+.projet__en__savoir,
+.projet__lien{
+    font-size: var(--h2-font-size);
+}
+
+.taches,
+.taches2,
+.taches3{
+    font-size: var(--h3-font-size);
+    margin-top: 1rem;
+}
+
+
+
 
 /******************** NAV **********************/
 .nav__logo{
@@ -435,7 +517,7 @@ img{
 .button--link{
     padding: 0;
     background-color: transparent;
-    color: var(--first-color);
+    color: var(--first-color-alt);
 }
 
 .button--link:hover{
@@ -562,39 +644,31 @@ img{
     width: 85%;
 }
 
-.skills__css{
+.skills__css,
+.skills__android,
+.skills__ios,
+.skills__python,
+.skills__react,
+.skills__next{
     width: 80%;
 }
 
-.skills__javascript{
+.skills__javascript,
+.skills__python,
+.skills__java,
+.skills__csharp{
     width: 90%;
-}
-
-.skills__nodejs{
-    width: 95%;
-}
-
-.skills__python{
-    width: 80%;
 }
 
 .skills__php{
     width: 55%;
 }
 
-.skills__webprogramming{
-    width: 95%;
-}
-
-.skills__algorithm{
-    width: 95%;
-}
-
-.skills__architecture{
-    width: 95%;
-}
-
-.skills__networking{
+.skills__algorithm,
+.skills__architecture,
+.skills__networking,
+.skills__webprogramming,
+.skills__nodejs{
     width: 95%;
 }
 
@@ -759,8 +833,13 @@ img{
     border-radius: .5rem;
 }
 
+.portfolio__modal-content p{
+    margin-bottom: 1rem;
+    font-size: var(--h2-font-size);
+}
+
 .services__modal-services{
-    row-gap: 1rem;
+    row-gap: 2rem;
 }
 
 .services__modal-service{
@@ -795,6 +874,11 @@ img{
 }
 
 /******************** PORTFOLIO **********************/
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .portfolio__link-bloc{
     display: flex;
@@ -1034,6 +1118,11 @@ img{
     background-color: var(--text-color-light);
 }
 
+.temporaire{
+    width: 5rem;
+    background-color: red;
+}
+
 /**************** MEFDIA QUERIES ****************/
 /* 
 es */
@@ -1085,6 +1174,11 @@ es */
 
 /* For medium devices */
 @media screen and (min-width: 568px){
+    .galerie img{
+        width: 10rem;
+        height: 8rem;
+    }
+
     .home__content{
         grid-template-columns: max-content 1fr 1fr;
     }
@@ -1112,6 +1206,11 @@ es */
 }
 
 @media screen and (min-width: 768px){
+    .galerie img{
+        width: 12rem;
+        height: 10rem;
+    }
+
     .logo__img{
         width: 80px;
         margin-top: 2rem;
@@ -1288,6 +1387,10 @@ es */
 
 /* For large devices*/
 @media screen and (min-width: 1024px){
+    .galerie img{
+        width: 20rem;
+        height: 15rem;
+    }
     .portfolio__img{
         width: 365px;
     }
@@ -1391,5 +1494,14 @@ es */
 
     .swiper > .swiper-pagination{
         bottom: -3rem;
+    }
+
+    .services__container{
+        grid-template-columns: repeat(2, 400px);
+        justify-content: center;
+    }
+
+    .services__modal-content{
+        width: 650px;
     }
 }

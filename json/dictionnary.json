@@ -32,7 +32,7 @@
     {
         "title": "about__me",
         "EN":"About Me",
-        "FR":"À propos de moi"
+        "FR":"Profil Professionnel"
     } ,
     {
         "title": "my__introduction",
@@ -87,7 +87,7 @@
     {
         "title": "about",
         "EN":"About",
-        "FR":"À propos"
+        "FR":"Profil"
     } ,
     {
         "title": "skills",
@@ -99,6 +99,11 @@
         "EN":"Services",
         "FR":"Services"
     } ,
+    {
+        "title": "experience",
+        "EN":"Experiences",
+        "FR":"Expérience"
+    },
     {
         "title": "folio",
         "EN":"Portfolio",
@@ -112,7 +117,7 @@
     {
         "title": "skills__section-title",
         "EN":"Skills",
-        "FR":"Compétences"
+        "FR":"Savoir-faire et expertise"
     } ,
     {
         "title": "skills__subtitle",
@@ -130,6 +135,26 @@
         "FR":"Plus de 2 années"
     },
     {
+        "title": "software__header__skill",
+        "EN":"Softwares",
+        "FR":"Logiciels"
+    } ,
+    {
+        "title": "software__years",
+        "EN":"More than 2 years",
+        "FR":"Plus de 2 années"
+    },
+    {
+        "title": "collaboratif__header__skill",
+        "EN":"Teamwork",
+        "FR":"Travail collaboratif"
+    } ,
+    {
+        "title": "collaboratif__years",
+        "EN":"More than 2 years",
+        "FR":"Plus de 2 années"
+    },
+    {
         "title": "backend__header__skill",
         "EN":"Backend developper",
         "FR":"Développeur Backend"
@@ -142,7 +167,7 @@
     {
         "title": "teacher__header__skill",
         "EN":"Computer Science Teacher",
-        "FR":"Enseignant d'Informatique"
+        "FR":"Enseignant Programmation Informatique"
     } ,
     {
         "title": "teacher__years",
@@ -150,14 +175,54 @@
         "FR":"Plus de 7 années"
     } ,
     {
+        "title": "mobile__header__skill",
+        "EN":"Mobile Software developper",
+        "FR":"Développeur application pour mobile"
+    } ,
+    {
+        "title": "mobile__years",
+        "EN":"More than 4 years",
+        "FR":"Plus de 4 années"
+    } ,
+    {
+        "title": "language__header__skill",
+        "EN":"Languages",
+        "FR":"Langues"
+    } ,
+    {
+        "title": "language__years",
+        "EN":"More than 10 years",
+        "FR":"Plus de 10 années"
+    } ,
+    {
+        "title": "bureau__header__skill",
+        "EN":"Software developper",
+        "FR":"Développeur application de bureau"
+    } ,
+    {
+        "title": "bureau__years",
+        "EN":"More than 4 years",
+        "FR":"Plus de 4 années"
+    } ,
+    {
         "title": "web__programming__skill",
-        "EN":"Frontend Web Programming",
-        "FR":"Programmation web client"
+        "EN":"Web Programming",
+        "FR":"Programmation web"
+    } ,
+    {
+        "title": "datastructure__programming__skill",
+        "EN":"Data Structures",
+        "FR":"Structures de données"
+    } ,
+    {
+        "title": "poo__programming__skill",
+        "EN":"Oject Oriented Programmating",
+        "FR":"Programmation Orientée Objet"
     } ,
     {
         "title": "algorithm__skill",
         "EN":"Introduction to Algorithms",
-        "FR":"Introduction à l'algorithmique"
+        "FR":"Initiation à la programmtion"
     } ,
     {
         "title": "architecture__skill",
@@ -171,8 +236,8 @@
     } ,
     {
         "title": "qualification__section-title",
-        "EN":"Qualification",
-        "FR":"Diplômes et expérience"
+        "EN":"Experiecne and studies",
+        "FR":"Expérience et études"
     },
     {
         "title": "qualification_subtitle",
@@ -420,6 +485,21 @@
         "FR":"Voir plus"
     },
     {
+        "title": "taches",
+        "EN":"Tasks",
+        "FR":"Tâches"
+    },
+    {
+        "title": "taches2",
+        "EN":"Tasks",
+        "FR":"Tâches"
+    },
+    {
+        "title": "taches3",
+        "EN":"Tasks",
+        "FR":"Tâches"
+    },
+    {
         "title": "service__description1",
         "EN":"I am able work on the backend of web application, independenly or as a team member.",
         "FR":"Je suis capable de travailler sur la partie backend d'une application web, tant en équipe que de façon autonome."
@@ -506,8 +586,8 @@
     },
     {
         "title": "location",
-        "EN":"Location",
-        "FR":"Position"
+        "EN":"Address",
+        "FR":"Adresse"
     },
     {
         "title": "contact__me__title",
