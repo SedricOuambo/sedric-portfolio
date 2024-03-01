@@ -23,6 +23,17 @@ titre__groupe.forEach(bloc => {
     });
 });
 
+/************************ Gestion des nav__item du header************************/
+const nav_item_list = document.querySelectorAll('#nav__item');
+nav_item_list.forEach(item =>{
+    item.addEventListener('click', () =>{
+        nav_item_list.forEach(nav_item =>{
+            nav_item.classList.remove('active__nav__item');
+        });
+        item.classList.add('active__nav__item');
+    });
+});
+
 /************************ MAMAGE LANGUAGE************************/
 const language_button = document.getElementById('home__language');
 const download_link = document.getElementById('download_link');
