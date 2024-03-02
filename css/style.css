@@ -274,14 +274,7 @@ img{
     margin-top: 1rem;
 }
 
-
-
-
 /******************** NAV **********************/
-.nav__logo{
-    
-}
-
 .logo__img{
     width: 50px;
 }
@@ -1150,7 +1143,7 @@ img{
 }
 
 .button--submit{
-    width: 11rem;
+    width: 13rem;
     display: flex;
     justify-content: center;
 }
