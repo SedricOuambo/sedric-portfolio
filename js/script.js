@@ -1,3 +1,51 @@
+/**************** Validation *************** */
+/**
+ * Vérifier si le courriel envoyé au serveur est valide
+ * @param {string} courriel 
+ * @returns bool
+ */
+const isCourrielValide = (courriel) =>
+    typeof courriel === 'string' &&
+    courriel.length >= 8; //ici on va utiliser reg pour valider le format
+
+const success = () =>{
+    document.getElementById('sender_subject').value = "";
+    document.getElementById('sender_message').value = "";
+    document.getElementById('infos').style.color = 'green';
+    document.getElementById('infos').textContent = 'Courriel envoyé avec succès.'
+}
+
+/**************** Envoi de message ************************* */
+function sendMail(){
+    let nom = document.getElementById('sender_name').value;
+    let objet = document.getElementById('sender_subject').value;
+    let email = document.getElementById('sender_email').value;
+    let message = document.getElementById('sender_message').value;
+
+    const infos = document.getElementById('infos');
+
+    if(nom === "" || email === "" || message === ""){
+        infos.style.color = 'red';
+        infos.textContent = "Veuillez remplir tous les champs obligatoires";
+    }
+    else if(!isCourrielValide(email)){
+        infos.style.color = 'red';
+        infos.textContent = "Courriel invalide";
+    }else{
+        let parms = {
+            name : nom,
+            subject : objet,
+            email : email,
+            message : message,
+        }
+        emailjs.send("service_96kjsd6", "template_2gzcyss", parms)
+        .then(success())
+    }
+}
+
+const send_button = document.getElementById('send_button');
+send_button.addEventListener('click', sendMail);
+
 /**************** Gestion de bloc portfolio********************/
 const content__bloc__applications = document.querySelectorAll('#content__bloc__applications');
 const titre__groupe = document.querySelectorAll('#titre__groupe');

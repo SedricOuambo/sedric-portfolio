@@ -17,6 +17,16 @@
     <link rel="stylesheet" href="./css/lightbox.min.css">
 
     <title>Sedric portfolio website</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "XI68Lm3ggbss3OTpx",
+            });
+        })();
+    </script>
 </head>
 
 <body>
@@ -1602,7 +1612,7 @@
                             <i class="uil uil-check-circle services__modal-icon"></i>
                             Administrer, améliorer et maintenir le système Informatique du lycée ;
                         </p>
-                        <p> 
+                        <p>
                             <i class="uil uil-check-circle services__modal-icon"></i>
                             Prodiguer des conseils techniques aux collègues et aux élèves, liés à l’usage du Système
                             Informatique du lycée;
@@ -1675,26 +1685,40 @@
 
                 <form action="" class="contact__form grid">
                     <div class="contact__inputs grid">
+                        <div class="form__title form__title"></div>
                         <div class="contact__content">
-                            <label for="" class="contact__label input__name">Name</label>
-                            <input type="text" class="contact__input">
+                            <nav>
+                                <label for="" class="contact__label input__name">Name </label>
+                                <div>*</div>
+                            </nav>
+                            <input type="text" class="contact__input" id="sender_name">
                         </div>
                         <div class="contact__content">
-                            <label for="" class="contact__labe input__email">Email</label>
-                            <input type="email" class="contact__input">
+                            <label for="" class="contact__label input__object">Objet</label>
+                            <input type="email" class="contact__input" id="sender_subject">
+                        </div>
+                        <div class="contact__content">
+                            <nav>
+                                <label for="" class="contact__label input__email">Email</label>
+                                <div>*</div>
+                            </nav>
+                            <input type="email" class="contact__input" id="sender_email">
                         </div>
                     </div>
                     <div class="contact__content">
-                        <label for="" class="contact__label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <nav>
+                            <label for="" class="contact__label">Message</label>
+                            <div>*</div>
+                        </nav>
+                        <textarea name="" cols="0" rows="7" class="contact__input" id="sender_message"></textarea>
                     </div>
 
-                    <div>
-                        <a href="mailto:ouambosedric@gmail.com" target="_blank" class="button button--flex">
-                            <span class="send__message">Send message</span>
-                            <i class="uil uil-message button__icon"></i>
-                        </a>
+                    <div class="button button--flex button--submit" id="send_button">
+                        <span class="send__message">Send message</span>
+                        <i class="uil uil-message button__icon"></i>
                     </div>
+
+                    <div id="infos"></div>
                 </form>
             </div>
         </section>

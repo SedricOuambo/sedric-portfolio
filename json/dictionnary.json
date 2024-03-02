@@ -572,7 +572,7 @@
     {
         "title": "send__message",
         "EN":"Send message",
-        "FR":"Envoyé message"
+        "FR":"Envoyer message"
     },
     {
         "title": "call__me",
@@ -596,13 +596,23 @@
     },
     {
         "title": "input__name",
-        "EN":"Name",
-        "FR":"Nom"
+        "EN":"Your name",
+        "FR":"Votre nom"
+    },
+    {
+        "title": "input__object",
+        "EN":"Message subject",
+        "FR":"Objet du message"
     },
     {
         "title": "input__email",
-        "EN":"Email",
-        "FR":"Courriel"
+        "EN":"Your email",
+        "FR":"Votre adresse courriel"
+    },
+    {
+        "title": "form__title",
+        "EN":"Send me an email",
+        "FR":"Envoyer moi un courriel"
     },
     {
         "title": "most__recent",

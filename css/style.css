@@ -978,9 +978,22 @@ img{
 }
 
 /******************** CONTACT ME **********************/
-.contact__container,
-.contact__information-content{
+.contact__container{
     row-gap: 3rem;
+}
+
+.contact__information-content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.contact__content nav{
+    display: flex;
+}
+
+.contact__content nav div{
+    color: red;
 }
 
 .contact__information{
@@ -1014,6 +1027,7 @@ img{
 .contact__label{
    font-size: var(--smaller-font-size); 
    color: var(--title-color);
+   font-weight: var(--font-semi-bold);
 }
 
 .contact__input{
@@ -1025,6 +1039,13 @@ img{
     border: none;
     outline: none;
     padding: .25rem .5rem .5rem 0;
+}
+
+.form__title{
+    text-align: center;
+    font-size: var(--h2-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
 }
 
 /******************** FOOTER **********************/
@@ -1126,6 +1147,16 @@ img{
 .temporaire{
     width: 5rem;
     background-color: red;
+}
+
+.button--submit{
+    width: 11rem;
+    display: flex;
+    justify-content: center;
+}
+
+.button--submit:hover{
+    cursor: pointer;
 }
 
 /**************** MEFDIA QUERIES ****************/
@@ -1472,10 +1503,6 @@ es */
 
     .contact__from{
         width: 460px;
-    }
-
-    .contact__inputs{
-        grid-template-columns: repeat(2, 2fr);
     }
 
     .section{
