@@ -33,7 +33,7 @@ function sendMail(){
     }
     else if(!isCourrielValide(email)){
         infos.style.color = 'red';
-        infos.textContent = "Courriel invalide";
+        infos.textContent = "Adresse courrielle invalide";
     }else{
         let parms = {
             name : nom,
