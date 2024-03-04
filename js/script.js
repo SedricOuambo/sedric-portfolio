@@ -4,9 +4,12 @@
  * @param {string} courriel 
  * @returns bool
  */
-const isCourrielValide = (courriel) =>
-    typeof courriel === 'string' &&
-    courriel.length >= 8; //ici on va utiliser reg pour valider le format
+function isCourrielValide(couriel){
+    //Reference : https://stackoverflow.com/questions/46155/how-can-i-validate-an-email-address-in-javascript
+    let reg = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+    return couriel.length >= 8 && 
+           String(couriel).toLowerCase().match(reg);
+}
 
 const success = () =>{
     document.getElementById('sender_subject').value = "";
