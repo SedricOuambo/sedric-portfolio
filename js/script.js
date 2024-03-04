@@ -248,6 +248,28 @@ portfolioCloses.forEach((btnClose) => {
     });
 });
 
+/*********************** PORTFOLIO DISPLAY PROJECT**************************** */
+const projectsHeader = document.querySelectorAll('#project__header'),
+      projectsContent = document.querySelectorAll('#project__content');
+
+projectsHeader.forEach(projet =>{
+    projet.addEventListener('click', ()=>{
+        if(projet.nextElementSibling.classList.contains('cache')){
+            projectsContent.forEach(projetContent =>{
+                projetContent.classList.add('cache');
+            });
+            projectsHeader.forEach(projetHeader =>{
+                projetHeader.classList.remove('skills__open');
+            });
+            projet.classList.add('skills__open');   
+            projet.nextElementSibling.classList.remove('cache');
+        }else{
+            projet.classList.remove('skills__open');
+            projet.nextElementSibling.classList.add('cache');
+        }
+    });
+});
+
 /********************** SCROLL SECTIONS ACTIVE LINK *****************************/
 const sections = document.querySelectorAll('section[id]');
 

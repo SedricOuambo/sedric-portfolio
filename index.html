@@ -18,6 +18,7 @@
 
     <title>Sedric portfolio website</title>
 
+    <!------------------------ Pour emailJS ---------------------------->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
     </script>
     <script type="text/javascript">
@@ -1083,324 +1084,372 @@
             <span class="section__subtitle most__recent">Most recent projects</span>
 
             <div class="portfolio__container container">
-                <!--******************* Applications web **********************-->
-                <div id="bloc__applications">
-                    <div class="titre__groupe" id="titre__groupe">
-                        <i class="uil uil-angle-right-b"></i>
-                        <p class="application_web titre__bloc__applications">Applications web</p>
-                    </div>
-                    <div class="content__bloc__applications" id="content__bloc__applications">
-                        <!--******************* PROJET1 **********************-->
-                        <div class="projet">
-                            <p class="projet__title">Site web annonçant une conférence sur le Mieux Vivre et Vivre Bien
-                                (MVVB).</p>
-                            <p class="projet__languages">React.js et Next.js</p>
-                            <div>
-                                <span class="button button--flex button--small button--link portfolio__button2" id="7">
-                                    <span class="view__more1 projet__en__savoir">En savoir plus ?</span>
-                                    <i class="uil uil-arrow-right button__icon projet__en__savoir"></i>
-                                </span>
-                            </div>
-                            <p class="projet__lien">
-                                Lien : en cours ...
-                                <!-- <a href="https://kmer-resto.onrender.com/" target="_blank">https://kmer-resto.onrender.com/</a> -->
-                            </p>
-                            <div class="galerie">
-                                <a href="images/mvvb1.png" data-lightbox="mygallery" data-title="Acuueil"><img
-                                        src="images/mvvb1.png" alt="mvvb1"></a>
-                                <a href="images/mvvb2.png" data-lightbox="mygallery" data-title="Jour1"><img
-                                        src="images/mvvb2.png" alt="mvvb2"></a>
-                                <a href="images/mvvb3.png" data-lightbox="mygallery" data-title="Jour2"><img
-                                        src="images/mvvb3.png" alt="mvvb3"></a>
-                                <a href="images/mvvb4.png" data-lightbox="mygallery" data-title="Responsive view"><img
-                                        src="images/mvvb4.png" alt="mvvb4"></a>
-                            </div>
-                            <div>
-                                <a href="#" class="button button--flex button--small portfolio__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
 
-                        <!--******************* PROJET2 **********************-->
-                        <div class="projet">
-                            <p class="projet__title">Application web moderne pour la gestion en ligne des commandes dans
-                                un
-                                restaurant.</p>
-                            <p class="projet__languages">HTML, CSS, JavaScript, Node JS (Express)</p>
-                            <div>
-                                <span class="button button--flex button--small button--link portfolio__button2" id="1">
-                                    <span class="view__more1 projet__en__savoir">En savoir plus ?</span>
-                                    <i class="uil uil-arrow-right button__icon projet__en__savoir"></i>
-                                </span>
-                            </div>
-                            <p class="projet__lien">
-                                Lien :
-                                <a href="https://kmer-resto.onrender.com/"
-                                    target="_blank">https://kmer-resto.onrender.com/</a>
-                            </p>
-                            <div class="galerie">
-                                <a href="images/kmer_resto1.png" data-lightbox="mygallery" data-title="Connexion"><img
-                                        src="images/kmer_resto1.png" alt="kmer_resto1"></a>
-                                <a href="images/kmer_resto2.png" data-lightbox="mygallery" data-title="Inscription"><img
-                                        src="images/kmer_resto2.png" alt="kmer_resto2"></a>
-                                <a href="images/kmer_resto3.png" data-lightbox="mygallery" data-title="Menu"><img
-                                        src="images/kmer_resto3.png" alt="kmer_resto3"></a>
-                                <a href="images/kmer_resto4.png" data-lightbox="mygallery" data-title="Panier"><img
-                                        src="images/kmer_resto4.png" alt="kmer_resto4"></a>
-                            </div>
-                            <div>
-                                <a href="https://youtu.be/VtBtWy1RXIA?si=tujlSv3IO-kT4iPq" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
+                <!--******************* PROJET1 **********************-->
+                <div class="projet">
+                    <div class="project__header" id="project__header">
+                        <div>
+                            <i class="uil uil-browser skills__icon"></i>
+                            <h1 class="project__title mvvb__header__project"></h1>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <span class="project__subtitle">
+                            <span class="lang_fram_mvvb"></span>
+                            <span class="mvvb__languages"></span>
+                        </span>
+                    </div>
+                    <div id="project__content" class="cache project__content">
+                        <div>
+                            <span class="button button--flex button--small button--link portfolio__button2" id="7">
+                                <span class="view__more1 projet__en__savoir">En savoir plus ?</span>
+                                <i class="uil uil-arrow-right button__icon projet__en__savoir"></i>
+                            </span>
+                        </div>
+                        <p class="projet__lien">
+                            Lien : en cours ...
+                            <!-- <a href="https://kmer-resto.onrender.com/" target="_blank">https://kmer-resto.onrender.com/</a> -->
+                        </p>
+                        <div class="galerie">
+                            <a href="images/mvvb1.png" data-lightbox="mygallery" data-title="Acuueil"><img
+                                    src="images/mvvb1.png" alt="mvvb1"></a>
+                            <a href="images/mvvb2.png" data-lightbox="mygallery" data-title="Jour1"><img
+                                    src="images/mvvb2.png" alt="mvvb2"></a>
+                            <a href="images/mvvb3.png" data-lightbox="mygallery" data-title="Jour2"><img
+                                    src="images/mvvb3.png" alt="mvvb3"></a>
+                            <a href="images/mvvb4.png" data-lightbox="mygallery" data-title="Responsive view"><img
+                                    src="images/mvvb4.png" alt="mvvb4"></a>
+                        </div>
+                        <div>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <!--******************* Applications de bureau **********************-->
-                <div id="bloc__applications">
-                    <div class="titre__groupe" id="titre__groupe">
-                        <i class="uil uil-angle-right-b"></i>
-                        <p class="application__bureau titre__bloc__applications">Applications de bureau</p>
+
+                <!--******************* PROJET2 **********************-->
+                <div class="projet">
+                    <div class="project__header" id="project__header">
+                        <div>
+                            <i class="uil uil-browser skills__icon"></i>
+                            <h1 class="project__title kmer__resto__header__project"></h1>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <span class="project__subtitle">
+                            <span class="lang_fram_resto"></span>
+                            <span class="kmer__resto__languages"></span>
+                        </span>
                     </div>
-                    <div class="masquer content__bloc__applications" id="content__bloc__applications">
-                        <!--******************* PROJET3 **********************-->
-                        <div class="projet">
-                            <p class="projet__title">Application moderne de gestion des fichiers multimédia.</p>
-                            <p class="projet__languages">C# et WFP</p>
-                            <div>
-                                <span class="button button--flex button--small button--link portfolio__button2" id="5">
-                                    <span class="view__more1 projet__en__savoir">En savoir plus ?</span>
-                                    <i class="uil uil-arrow-right button__icon projet__en__savoir"></i>
-                                </span>
-                            </div>
-                            <p class="projet__lien">
-                                Code Source :
-                                <a href="https://gitlab.com/developpement-application-de-bureau/dam_soft"
-                                    target="_blank">
-                                    Cliquez ici
-                                </a>
-                                pour l'avoir...
-                            </p>
-                            <div class="galerie">
-                                <a href="images/dam1.png" data-lightbox="mygallery" data-title="Connexion"><img
-                                        src="images/dam1.png" alt="dam1"></a>
-                                <a href="images/dam2.png" data-lightbox="mygallery" data-title="Accueil"><img
-                                        src="images/dam2.png" alt="dam2"></a>
-                                <a href="images/dam3.png" data-lightbox="mygallery" data-title="Ressources"><img
-                                        src="images/dam3.png" alt="dam3"></a>
-                                <a href="images/dam4.png" data-lightbox="mygallery" data-title="Messages"><img
-                                        src="images/dam4.png" alt="dam4"></a>
-                            </div>
-                            <div>
-                                <a href="https://youtu.be/aAkcDggaUN0" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
+                    <div id="project__content" class="cache project__content">
+                        <div>
+                            <span class="button button--flex button--small button--link portfolio__button2" id="1">
+                                <span class="view__more1 projet__en__savoir">En savoir plus ?</span>
+                                <i class="uil uil-arrow-right button__icon projet__en__savoir"></i>
+                            </span>
                         </div>
-
-                        <!--******************* PROJET4 **********************-->
-                        <div class="projet">
-                            <p class="projet__title">Application moderne de gestion d'une bibliothèque</p>
-                            <p class="projet__languages">C#, WFP et MySQL</p>
-                            <div>
-                                <span class="button button--flex button--small button--link portfolio__button2" id="6">
-                                    <span class="view__more1 projet__en__savoir">En savoir plus ?</span>
-                                    <i class="uil uil-arrow-right button__icon projet__en__savoir"></i>
-                                </span>
-                            </div>
-                            <p class="projet__lien">
-                                Code Source :
-                                <a href="https://gitlab.com/ouambo_school_projects/biblio_gui" target="_blank">
-                                    Cliquez ici
-                                </a>
-                                pour l'avoir...
-                            </p>
-                            <div class="galerie">
-                                <a href="images/biblio1.png" data-lightbox="mygallery" data-title="Connexion"><img
-                                        src="images/biblio1.png" alt="biblio1"></a>
-                                <a href="images/biblio2.png" data-lightbox="mygallery" data-title="Accueil"><img
-                                        src="images/biblio2.png" alt="biblio2"></a>
-                                <a href="images/biblio3.png" data-lightbox="mygallery" data-title="Ajout"><img
-                                        src="images/biblio3.png" alt="biblio3"></a>
-                                <a href="images/biblio4.png" data-lightbox="mygallery" data-title="Modification"><img
-                                        src="images/biblio4.png" alt="biblio4"></a>
-                            </div>
-                            <div>
-                                <a href="https://youtu.be/QYMRJr9HVZk" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
+                        <p class="projet__lien">
+                            Lien :
+                            <a href="https://kmer-resto.onrender.com/"
+                                target="_blank">https://kmer-resto.onrender.com/</a>
+                        </p>
+                        <div class="galerie">
+                            <a href="images/kmer_resto1.png" data-lightbox="mygallery" data-title="Connexion"><img
+                                    src="images/kmer_resto1.png" alt="kmer_resto1"></a>
+                            <a href="images/kmer_resto2.png" data-lightbox="mygallery" data-title="Inscription"><img
+                                    src="images/kmer_resto2.png" alt="kmer_resto2"></a>
+                            <a href="images/kmer_resto3.png" data-lightbox="mygallery" data-title="Menu"><img
+                                    src="images/kmer_resto3.png" alt="kmer_resto3"></a>
+                            <a href="images/kmer_resto4.png" data-lightbox="mygallery" data-title="Panier"><img
+                                    src="images/kmer_resto4.png" alt="kmer_resto4"></a>
                         </div>
-
-                        <!--******************* PROJET5 **********************-->
-                        <div class="projet">
-                            <p class="projet__title">Application console pour la création et la gestion des
-                                questionnaires.
-                            </p>
-                            <p class="projet__languages">C# en console et fichier .txt</p>
-                            <div>
-                                <span class="button button--flex button--small button--link portfolio__button2" id="4">
-                                    <span class="view__more1 projet__en__savoir">En savoir plus ?</span>
-                                    <i class="uil uil-arrow-right button__icon projet__en__savoir"></i>
-                                </span>
-                            </div>
-                            <p class="projet__lien">
-                                Code Source :
-                                <a href="https://gitlab.com/ouambo_school_projects/questionnaire-c-sharp"
-                                    target="_blank">
-                                    cliquez ici
-                                </a>
-                                pour l'avoir...
-                            </p>
-                            <div class="galerie">
-                                <a href="images/questionnaire1.png" data-lightbox="mygallery" data-title="Accueil"><img
-                                        src="images/questionnaire1.png" alt="questionnaire1"></a>
-                                <a href="images/questionnaire2.png" data-lightbox="mygallery" data-title="Question"><img
-                                        src="images/questionnaire2.png" alt="questionnaire2"></a>
-                                <a href="images/questionnaire3.png" data-lightbox="mygallery" data-title="Question"><img
-                                        src="images/questionnaire3.png" alt="questionnaire3"></a>
-                                <a href="images/questionnaire4.png" data-lightbox="mygallery"
-                                    data-title="Résultats"><img src="images/questionnaire4.png"
-                                        alt="questionnaire4"></a>
-                            </div>
-                            <div>
-                                <a href="https://youtu.be/pzGnRdK_wGc" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
+                        <div>
+                            <a href="https://youtu.be/VtBtWy1RXIA?si=tujlSv3IO-kT4iPq" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <!--******************* Applications mobile **********************-->
-                <div id="bloc__applications">
-                    <div class="titre__groupe" id="titre__groupe">
-                        <!-- <i class="uil uil-angle-down"></i> -->
-                        <i class="uil uil-angle-right-b"></i>
-                        <p class="application__mobile titre__bloc__applications">Applications mobile</p>
+
+                <!--******************* PROJET3 **********************-->
+                <div class="projet">
+                    <div class="project__header" id="project__header">
+                        <div>
+                            <i class="uil uil-desktop-alt skills__icon"></i>
+                            <h1 class="project__title dam__header__project"></h1>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <span class="project__subtitle">
+                            <span class="lang_fram_dam"></span>
+                            <span class="dam__languages"></span>
+                        </span>
                     </div>
-                    <div class="masquer content__bloc__applications" id="content__bloc__applications">
-                        <!--******************* PROJET6 **********************-->
-                        <div class="projet">
-                            <p class="projet__title">Application Android de sondage sur les préférences culinaires des
-                                Canadiens.</p>
-                            <p class="projet__languages">Java et SQLite</p>
-                            <div>
-                                <span class="button button--flex button--small button--link portfolio__button2" id="3">
-                                    <span class="view__more1 projet__en__savoir">En savoir plus ?</span>
-                                    <i class="uil uil-arrow-right button__icon projet__en__savoir"></i>
-                                </span>
-                            </div>
-                            <p class="projet__lien">
-                                Code Source :
-                                <a href="https://gitlab.com/ouambo_school_projects/sondage-pour-preferences-alimentaires-android"
-                                    target="_blank">
-                                    cliquez ici
-                                </a>
-                                pour l'avoir...
-                            </p>
-                            <div class="galerie">
-                                <a href="images/sondage1.png" data-lightbox="mygallery" data-title="Accueil"><img
-                                        src="images/sondage1.png" alt="sondage1"></a>
-                                <a href="images/sondage2.png" data-lightbox="mygallery" data-title="Connexion"><img
-                                        src="images/sondage2.png" alt="sondage2"></a>
-                                <a href="images/sondage3.png" data-lightbox="mygallery" data-title="Inscription"><img
-                                        src="images/sondage3.png" alt="sondage3"></a>
-                                <a href="images/sondage4.png" data-lightbox="mygallery" data-title="Question"><img
-                                        src="images/sondage4.png" alt="sondage4"></a>
-                            </div>
-                            <div>
-                                <a href="https://youtu.be/jtK2gcqYOz4" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
+                    <div id="project__content" class="cache project__content">
+                        <div>
+                            <span class="button button--flex button--small button--link portfolio__button2" id="5">
+                                <span class="view__more1 projet__en__savoir">En savoir plus ?</span>
+                                <i class="uil uil-arrow-right button__icon projet__en__savoir"></i>
+                            </span>
+                        </div>
+                        <p class="projet__lien">
+                            Code Source :
+                            <a href="https://gitlab.com/developpement-application-de-bureau/dam_soft" target="_blank">
+                                Cliquez ici
+                            </a>
+                            pour l'avoir...
+                        </p>
+                        <div class="galerie">
+                            <a href="images/dam1.png" data-lightbox="mygallery" data-title="Connexion"><img
+                                    src="images/dam1.png" alt="dam1"></a>
+                            <a href="images/dam2.png" data-lightbox="mygallery" data-title="Accueil"><img
+                                    src="images/dam2.png" alt="dam2"></a>
+                            <a href="images/dam3.png" data-lightbox="mygallery" data-title="Ressources"><img
+                                    src="images/dam3.png" alt="dam3"></a>
+                            <a href="images/dam4.png" data-lightbox="mygallery" data-title="Messages"><img
+                                    src="images/dam4.png" alt="dam4"></a>
+                        </div>
+                        <div>
+                            <a href="https://youtu.be/aAkcDggaUN0" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <!--******************* Applications de jeu **********************-->
-                <div id="bloc__applications">
-                    <div class="titre__groupe" id="titre__groupe">
-                        <i class="uil uil-angle-right-b"></i>
-                        <p class="application__jeu titre__bloc__applications">Les jeux</p>
-                    </div>
-                    <div class="masquer content__bloc__applications" id="content__bloc__applications">
-                        <!--******************* PROJET7 **********************-->
-                        <div class="projet">
-                            <p class="projet__title">Jeu de Tire de projectiles</p>
-                            <p class="projet__languages">Python avec pygame</p>
-                            <div>
-                                <span class="button button--flex button--small button--link portfolio__button2" id="8">
-                                    <span class="view__more1 projet__en__savoir">En savoir plus ?</span>
-                                    <i class="uil uil-arrow-right button__icon projet__en__savoir"></i>
-                                </span>
-                            </div>
-                            <p class="projet__lien">
-                                Code Source :
-                                <a href="" target="_blank">
-                                    cliquez ici
-                                </a>
-                                pour l'avoir...
-                            </p>
-                            <div class="galerie">
-                                <a href="images/game1.png" data-lightbox="mygallery" data-title="Accueil"><img
-                                        src="images/game1.png" alt="game1"></a>
-                                <a href="images/game2.png" data-lightbox="mygallery" data-title="Tire"><img
-                                        src="images/game2.png" alt="game2"></a>
-                                <a href="images/game3.png" data-lightbox="mygallery" data-title="Tire"><img
-                                        src="images/game3.png" alt="game3"></a>
-                                <a href="images/game4.png" data-lightbox="mygallery" data-title="Tire"><img
-                                        src="images/game4.png" alt="game4"></a>
-                            </div>
-                            <div>
-                                <a href="" class="button button--flex button--small portfolio__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
+
+                <!--******************* PROJET4 **********************-->
+                <div class="projet">
+                    <div class="project__header" id="project__header">
+                        <div>
+                            <i class="uil uil-desktop-alt skills__icon"></i>
+                            <h1 class="project__title biblio__header__project"></h1>
+                            <i class="uil uil-angle-down skills__arrow"></i>
                         </div>
-                        <!--******************* PROJET8 **********************-->
-                        <div class="projet">
-                            <p class="projet__title">Jeu de mine aux cristaux.</p>
-                            <p class="projet__languages">HTML, CSS, JavaScript</p>
-                            <div>
-                                <span class="button button--flex button--small button--link portfolio__button2" id="2">
-                                    <span class="view__more1 projet__en__savoir">En savoir plus ?</span>
-                                    <i class="uil uil-arrow-right button__icon projet__en__savoir"></i>
-                                </span>
-                            </div>
-                            <p class="projet__lien">
-                                Lien :
-                                <a href="https://sedricouambo.github.io/mine-game/" target="_blank">
-                                    https://sedricouambo.github.io/mine-game/ </a>
-                            </p>
-                            <div class="galerie">
-                                <a href="images/cristaux1.png" data-lightbox="mygallery" data-title="Debut"><img
-                                        src="images/cristaux1.png" alt="cristaux1"></a>
-                                <a href="images/cristaux2.png" data-lightbox="mygallery" data-title="En cours"><img
-                                        src="images/cristaux2.png" alt="cristaux2"></a>
-                                <a href="images/cristaux3.png" data-lightbox="mygallery" data-title="Responsive"><img
-                                        src="images/cristaux3.png" alt="cristaux3"></a>
-                                <a href="images/cristaux4.png" data-lightbox="mygallery" data-title="Fin du jeu"><img
-                                        src="images/cristaux4.png" alt="cristaux4"></a>
-                            </div>
-                            <div>
-                                <a href="https://youtu.be/25Bk7Pp_opQ?si=ZruQ_aiEY7uDeQ5R" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
+                        <span class="project__subtitle">
+                            <span class="lang_fram_biblio"></span>
+                            <span class="biblio__languages"></span>
+                        </span>
+                    </div>
+                    <div id="project__content" class="cache project__content">
+                        <p class="projet__title"></p>
+                        <p class="projet__languages"></p>
+                        <div>
+                            <span class="button button--flex button--small button--link portfolio__button2" id="6">
+                                <span class="view__more1 projet__en__savoir">En savoir plus ?</span>
+                                <i class="uil uil-arrow-right button__icon projet__en__savoir"></i>
+                            </span>
+                        </div>
+                        <p class="projet__lien">
+                            Code Source :
+                            <a href="https://gitlab.com/ouambo_school_projects/biblio_gui" target="_blank">
+                                Cliquez ici
+                            </a>
+                            pour l'avoir...
+                        </p>
+                        <div class="galerie">
+                            <a href="images/biblio1.png" data-lightbox="mygallery" data-title="Connexion"><img
+                                    src="images/biblio1.png" alt="biblio1"></a>
+                            <a href="images/biblio2.png" data-lightbox="mygallery" data-title="Accueil"><img
+                                    src="images/biblio2.png" alt="biblio2"></a>
+                            <a href="images/biblio3.png" data-lightbox="mygallery" data-title="Ajout"><img
+                                    src="images/biblio3.png" alt="biblio3"></a>
+                            <a href="images/biblio4.png" data-lightbox="mygallery" data-title="Modification"><img
+                                    src="images/biblio4.png" alt="biblio4"></a>
+                        </div>
+                        <div>
+                            <a href="https://youtu.be/QYMRJr9HVZk" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--******************* PROJET5 **********************-->
+                <div class="projet">
+                    <div class="project__header" id="project__header">
+                        <div>
+                            <i class="uil uil-keyboard skills__icon"></i>
+                            <h1 class="project__title questionnaire__header__project"></h1>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <span class="project__subtitle">
+                            <span class="lang_fram_questionnaire"></span>
+                            <span class="questionnaire__languages"></span>
+                        </span>
+                    </div>
+                    <div id="project__content" class="cache project__content">
+                        <div>
+                            <span class="button button--flex button--small button--link portfolio__button2" id="4">
+                                <span class="view__more1 projet__en__savoir">En savoir plus ?</span>
+                                <i class="uil uil-arrow-right button__icon projet__en__savoir"></i>
+                            </span>
+                        </div>
+                        <p class="projet__lien">
+                            Code Source :
+                            <a href="https://gitlab.com/ouambo_school_projects/questionnaire-c-sharp" target="_blank">
+                                cliquez ici
+                            </a>
+                            pour l'avoir...
+                        </p>
+                        <div class="galerie">
+                            <a href="images/questionnaire1.png" data-lightbox="mygallery" data-title="Accueil"><img
+                                    src="images/questionnaire1.png" alt="questionnaire1"></a>
+                            <a href="images/questionnaire2.png" data-lightbox="mygallery" data-title="Question"><img
+                                    src="images/questionnaire2.png" alt="questionnaire2"></a>
+                            <a href="images/questionnaire3.png" data-lightbox="mygallery" data-title="Question"><img
+                                    src="images/questionnaire3.png" alt="questionnaire3"></a>
+                            <a href="images/questionnaire4.png" data-lightbox="mygallery" data-title="Résultats"><img
+                                    src="images/questionnaire4.png" alt="questionnaire4"></a>
+                        </div>
+                        <div>
+                            <a href="https://youtu.be/pzGnRdK_wGc" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--******************* PROJET6 **********************-->
+                <div class="projet">
+                    <div class="project__header" id="project__header">
+                        <div>
+                            <i class="uil uil-android skills__icon"></i>
+                            <h1 class="project__title sondage__header__project"></h1>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <span class="project__subtitle">
+                            <span class="lang_fram_sondage"></span>
+                            <span class="sondage__languages"></span>
+                        </span>
+                    </div>
+                    <div id="project__content" class="cache project__content">
+                        <div>
+                            <span class="button button--flex button--small button--link portfolio__button2" id="3">
+                                <span class="view__more1 projet__en__savoir">En savoir plus ?</span>
+                                <i class="uil uil-arrow-right button__icon projet__en__savoir"></i>
+                            </span>
+                        </div>
+                        <p class="projet__lien">
+                            Code Source :
+                            <a href="https://gitlab.com/ouambo_school_projects/sondage-pour-preferences-alimentaires-android"
+                                target="_blank">
+                                cliquez ici
+                            </a>
+                            pour l'avoir...
+                        </p>
+                        <div class="galerie">
+                            <a href="images/sondage1.png" data-lightbox="mygallery" data-title="Accueil"><img
+                                    src="images/sondage1.png" alt="sondage1"></a>
+                            <a href="images/sondage2.png" data-lightbox="mygallery" data-title="Connexion"><img
+                                    src="images/sondage2.png" alt="sondage2"></a>
+                            <a href="images/sondage3.png" data-lightbox="mygallery" data-title="Inscription"><img
+                                    src="images/sondage3.png" alt="sondage3"></a>
+                            <a href="images/sondage4.png" data-lightbox="mygallery" data-title="Question"><img
+                                    src="images/sondage4.png" alt="sondage4"></a>
+                        </div>
+                        <div>
+                            <a href="https://youtu.be/jtK2gcqYOz4" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--******************* PROJET7 **********************-->
+                <div class="projet">
+                    <div class="project__header" id="project__header">
+                        <div>
+                            <i class="uil uil-game-structure skills__icon"></i>
+                            <h1 class="project__title python__header__project"></h1>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <span class="project__subtitle">
+                            <span class="lang_fram_python"></span>
+                            <span class="python__languages"></span>
+                        </span>
+                    </div>
+                    <div id="project__content" class="cache project__content">
+                        <div>
+                            <span class="button button--flex button--small button--link portfolio__button2" id="8">
+                                <span class="view__more1 projet__en__savoir">En savoir plus ?</span>
+                                <i class="uil uil-arrow-right button__icon projet__en__savoir"></i>
+                            </span>
+                        </div>
+                        <p class="projet__lien">
+                            Code Source :
+                            <a href="" target="_blank">
+                                cliquez ici
+                            </a>
+                            pour l'avoir...
+                        </p>
+                        <div class="galerie">
+                            <a href="images/game1.png" data-lightbox="mygallery" data-title="Accueil"><img
+                                    src="images/game1.png" alt="game1"></a>
+                            <a href="images/game2.png" data-lightbox="mygallery" data-title="Tire"><img
+                                    src="images/game2.png" alt="game2"></a>
+                            <a href="images/game3.png" data-lightbox="mygallery" data-title="Tire"><img
+                                    src="images/game3.png" alt="game3"></a>
+                            <a href="images/game4.png" data-lightbox="mygallery" data-title="Tire"><img
+                                    src="images/game4.png" alt="game4"></a>
+                        </div>
+                        <div>
+                            <a href="" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--******************* PROJET8 **********************-->
+                <div class="projet">
+                    <div class="project__header" id="project__header">
+                        <div>
+                            <i class="uil uil-game-structure skills__icon"></i>
+                            <h1 class="project__title mine__header__project"></h1>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <span class="project__subtitle">
+                            <span class="lang_fram_mine"></span>
+                            <span class="mine__languages"></span>
+                        </span>
+                    </div>
+                    <div id="project__content" class="cache project__content">
+                        <div>
+                            <span class="button button--flex button--small button--link portfolio__button2" id="2">
+                                <span class="view__more1 projet__en__savoir">En savoir plus ?</span>
+                                <i class="uil uil-arrow-right button__icon projet__en__savoir"></i>
+                            </span>
+                        </div>
+                        <p class="projet__lien">
+                            Lien :
+                            <a href="https://sedricouambo.github.io/mine-game/" target="_blank">
+                                https://sedricouambo.github.io/mine-game/ </a>
+                        </p>
+                        <div class="galerie">
+                            <a href="images/cristaux1.png" data-lightbox="mygallery" data-title="Debut"><img
+                                    src="images/cristaux1.png" alt="cristaux1"></a>
+                            <a href="images/cristaux2.png" data-lightbox="mygallery" data-title="En cours"><img
+                                    src="images/cristaux2.png" alt="cristaux2"></a>
+                            <a href="images/cristaux3.png" data-lightbox="mygallery" data-title="Responsive"><img
+                                    src="images/cristaux3.png" alt="cristaux3"></a>
+                            <a href="images/cristaux4.png" data-lightbox="mygallery" data-title="Fin du jeu"><img
+                                    src="images/cristaux4.png" alt="cristaux4"></a>
+                        </div>
+                        <div>
+                            <a href="https://youtu.be/25Bk7Pp_opQ?si=ZruQ_aiEY7uDeQ5R" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
                         </div>
                     </div>
                 </div>

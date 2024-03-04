@@ -130,6 +130,126 @@
         "FR":"Développeur Frontend"
     } ,
     {
+        "title": "lang_fram_mvvb",
+        "EN":"Languages or Frameworks :",
+        "FR":"Langages ou Frameworks : "
+    } ,
+    {
+        "title": "lang_fram_resto",
+        "EN":"Languages or Frameworks :",
+        "FR":"Langages ou Frameworks : "
+    } ,
+    {
+        "title": "mvvb__header__project",
+        "EN":"",
+        "FR":"Site web pour une conférence sur le Mieux Vivre et Vivre Bien."
+    } ,
+    {
+        "title": "mvvb__languages",
+        "EN":"Next JS et React JS",
+        "FR":"Next JS and React JS"
+    } ,
+    {
+        "title": "kmer__resto__header__project",
+        "EN":"",
+        "FR":"Application web moderne pour la gestion en ligne des commandes dans un restaurant."
+    } ,
+    {
+        "title": "kmer__resto__languages",
+        "EN":"HTML, CSS, JavaScript, Node JS (Express)",
+        "FR":"HTML, CSS, JavaScript, Node JS (Express)"
+    } ,
+    {
+        "title": "dam__header__project",
+        "EN":"",
+        "FR":"Application de bureau moderne pour la gestion des fichiers multimédia."
+    } ,
+    {
+        "title": "dam__languages",
+        "EN":"C# and WPF",
+        "FR":"C# et WPF"
+    } ,
+    {
+        "title": "lang_fram_dam",
+        "EN":"Languages or Frameworks :",
+        "FR":"Langages ou Frameworks : "
+    } ,
+    {
+        "title": "questionnaire__header__project",
+        "EN":"",
+        "FR":"Application console pour la création et la gestion des questionnaires."
+    } ,
+    {
+        "title": "questionnaire__languages",
+        "EN":"C# in console",
+        "FR":"C# en console et fichier .txt"
+    } ,
+    {
+        "title": "lang_fram_questionnaire",
+        "EN":"Languages or Frameworks :",
+        "FR":"Langages ou Frameworks : "
+    } ,
+    {
+        "title": "sondage__header__project",
+        "EN":"",
+        "FR":"Application Android de sondage sur les préférences culinaires des Canadiens."
+    } ,
+    {
+        "title": "sondage__languages",
+        "EN":"Android(Java) and SQLite",
+        "FR":"Andoid(Java) et SQLite"
+    } ,
+    {
+        "title": "lang_fram_sondage",
+        "EN":"Languages or Frameworks :",
+        "FR":"Langages ou Frameworks : "
+    } ,
+    {
+        "title": "biblio__header__project",
+        "EN":"",
+        "FR":"Application de bureau moderne pour la gestion d'une bibliothèque."
+    } ,
+    {
+        "title": "biblio__languages",
+        "EN":"C#, WFP and MySQL",
+        "FR":"C#, WFP et MySQL"
+    } ,
+    {
+        "title": "lang_fram_biblio",
+        "EN":"Languages or Frameworks :",
+        "FR":"Langages ou Frameworks : "
+    } ,
+    {
+        "title": "python__header__project",
+        "EN":"",
+        "FR":"Jeu de Tire de projectiles."
+    } ,
+    {
+        "title": "python__languages",
+        "EN":"Pygame of Python ",
+        "FR":"Pygame de Python"
+    } ,
+    {
+        "title": "lang_fram_python",
+        "EN":"Languages or Frameworks :",
+        "FR":"Langages ou Frameworks : "
+    } ,
+    {
+        "title": "mine__header__project",
+        "EN":"",
+        "FR":"Jeu de mine aux cristaux."
+    } ,
+    {
+        "title": "mine__languages",
+        "EN":"Pygame of Python ",
+        "FR":"HTML, CSS et JavaScript"
+    } ,
+    {
+        "title": "lang_fram_mine",
+        "EN":"Languages or Frameworks :",
+        "FR":"Langages ou Frameworks : "
+    } ,
+    {
         "title": "frontend__years",
         "EN":"More than 2 years",
         "FR":"Plus de 2 années"

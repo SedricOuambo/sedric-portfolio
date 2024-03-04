@@ -223,12 +223,18 @@ img{
 .projet{
     display: flex;
     flex-direction: column;
-    text-align: center;
     width: 100%;
-    border: 3px solid var(--first-color-alt);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     border-radius: 20px;
     padding: 1rem;
+}
+
+.project__content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
 }
 
 .galerie img{
@@ -586,6 +592,16 @@ img{
     cursor: pointer;
 }
 
+.project__header{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.project__header div{
+    display: flex;
+}
+
 .skills__icon,
 .skills__arrow
 {
@@ -597,9 +613,14 @@ img{
     margin-right: var(--mb-0-75);
 }
 
-.skills__subtitle{
-    font-size: var(--small-font-size);
+.skills__subtitle,
+.project__subtitle{
     color: var(--text-color-light);
+}
+
+.project__subtitle{
+    margin-left: 3rem;
+    font-size: var(--h3-font-size);
 }
 
 .skills__arrow{
@@ -872,6 +893,10 @@ img{
 }
 
 /******************** PORTFOLIO **********************/
+.cache{
+    display: none;
+}
+
 .portfolio{
     display: flex;
     flex-direction: column;
@@ -1152,6 +1177,11 @@ img{
     cursor: pointer;
 }
 
+.project__title{
+    font-size: var(--h2-font-size);
+    margin-bottom: .5rem;
+}
+
 /**************** MEFDIA QUERIES ****************/
 /* 
 es */
@@ -1196,7 +1226,8 @@ es */
 }
 
 @media screen and (max-width: 568px) {
-    .skills__title{
+    .skills__title
+    {
         font-size: var(--normal-font-size);
     }
 }
