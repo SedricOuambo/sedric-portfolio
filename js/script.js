@@ -41,7 +41,7 @@ function sendMail(){
             email : email,
             message : message,
         }
-        emailjs.send("service_96kjsd6", "template_2gzcyss", parms)
+        emailjs.send("service_7xr0l1o", "template_qxyqu87", parms)
         .then(success())
     }
 }
