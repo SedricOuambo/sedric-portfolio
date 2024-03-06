@@ -702,6 +702,7 @@ img{
 }
 
 .skills__open .skills__arrow{
+    height: 50%;
     transform: rotate(-180deg);
 }
 

@@ -49,31 +49,6 @@ function sendMail(){
 const send_button = document.getElementById('send_button');
 send_button.addEventListener('click', sendMail);
 
-/**************** Gestion de bloc portfolio********************/
-const content__bloc__applications = document.querySelectorAll('#content__bloc__applications');
-const titre__groupe = document.querySelectorAll('#titre__groupe');
-
-titre__groupe.forEach(bloc => {
-    bloc.addEventListener('click', () =>{
-        let isActive = bloc.nextElementSibling.classList.contains('active') ? true : false;
-        content__bloc__applications.forEach(element =>{
-            element.classList.add('masquer');
-        });
-
-        if(!isActive){
-            bloc.nextElementSibling.classList.remove('masquer');
-            bloc.nextElementSibling.classList.add('active');
-            bloc.getElementsByClassName('uil')[0].classList.remove('uil-angle-right-b');
-            bloc.getElementsByClassName('uil')[0].classList.add('uil-angle-down');
-        }
-        else{
-            bloc.nextElementSibling.classList.remove('active');
-            bloc.getElementsByClassName('uil')[0].classList.remove('uil-angle-down');
-            bloc.getElementsByClassName('uil')[0].classList.add('uil-angle-right-b');
-        }
-    });
-});
-
 /************************ Gestion des nav__item du header************************/
 const nav_item_list = document.querySelectorAll('#nav__item');
 nav_item_list.forEach(item =>{
