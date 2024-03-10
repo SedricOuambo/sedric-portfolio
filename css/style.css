@@ -234,7 +234,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .galerie img{
@@ -270,7 +270,7 @@ img{
 
 .projet__en__savoir,
 .projet__lien{
-    font-size: var(--h2-font-size);
+    font-size: var(--h3-font-size);
 }
 
 .taches,
@@ -621,6 +621,8 @@ img{
 .project__subtitle{
     margin-left: 3rem;
     font-size: var(--h3-font-size);
+    line-height: 2rem;
+    font-weight: bold;
 }
 
 .skills__arrow{

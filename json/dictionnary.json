@@ -135,13 +135,43 @@
         "FR":"Langages ou Frameworks : "
     } ,
     {
+        "title": "role_fram_mvvb",
+        "EN":"Role and responsibilities :",
+        "FR":"Rôle et responsabilités : "
+    } ,
+    {
+        "title": "mvvb__role",
+        "EN":"implementation of business logic, creation of the home and day 1 interface, implementation of the validation of the contact form and sending emails with EmailJS, Add all the metadata for each page of the website, optimize the website for the indexing of SEO search engines. optimization of the source code of other colleagues before submission.",
+        "FR":"implémentation de la logique métier, création de l’interface d’accueil et du jour 1, implémentation de la validation du formulaire de contact et envoi des mails avec EmailJS, Ajouter toutes les métadonnées pour chaque page du site web, optimiser le site web pour l’indexation des engins de recherche SEO. optimisation du code source des autres collègues avant soumission."
+    } ,
+    {
+        "title": "role_fram_resto",
+        "EN":"Role and responsibilities :",
+        "FR":"Rôle et responsabilités : "
+    } ,
+    {
+        "title": "resto__role",
+        "EN":"Project Manager, MVC Project Organization and Evolution Tracking, Controller Part Implementation, Database Management, Session Management Implementation, Real-Time Data Display (RDS) Management, Securing Server Routes, Optimizing Application Source Code Prior to Submission.",
+        "FR":"chef de projet, Organisation du projet selon le modèle MVC et suivi de l’évolution, implémentation de la partie contrôleur, gestion de la base de données, implémentation de gestion des sessions, gestion de l’affichage des données en temps réel (SSE), sécurisation des routes du serveur, optimisation du code source de l’application avant soumission."
+    } ,
+    {
+        "title": "role_fram_dam",
+        "EN":"Role and responsibilities :",
+        "FR":"Rôle et responsabilités : "
+    } ,
+    {
+        "title": "dam__role",
+        "EN":"Implement the business logic part, create the user interface, and manage the database.",
+        "FR":"implémentation de la partie logique métier, création de l’interface utilisateur et gestion de la base de données."
+    } ,
+    {
         "title": "lang_fram_resto",
         "EN":"Languages or Frameworks :",
         "FR":"Langages ou Frameworks : "
     } ,
     {
         "title": "mvvb__header__project",
-        "EN":"",
+        "EN":"Website for a conference on Better Living and Living Well.",
         "FR":"Site web pour une conférence sur le Mieux Vivre et Vivre Bien."
     } ,
     {
@@ -151,7 +181,7 @@
     } ,
     {
         "title": "kmer__resto__header__project",
-        "EN":"",
+        "EN":"Modern web application for online order management in a restaurant.",
         "FR":"Application web moderne pour la gestion en ligne des commandes dans un restaurant."
     } ,
     {
@@ -161,7 +191,7 @@
     } ,
     {
         "title": "dam__header__project",
-        "EN":"",
+        "EN":"Modern software for managing multimedia files.",
         "FR":"Application de bureau moderne pour la gestion des fichiers multimédia."
     } ,
     {
@@ -176,7 +206,7 @@
     } ,
     {
         "title": "questionnaire__header__project",
-        "EN":"",
+        "EN":"Console application for creating and managing quiz.",
         "FR":"Application console pour la création et la gestion des questionnaires."
     } ,
     {
@@ -191,7 +221,7 @@
     } ,
     {
         "title": "sondage__header__project",
-        "EN":"",
+        "EN":"Android app for polling Canadians' food preferences.",
         "FR":"Application Android de sondage sur les préférences culinaires des Canadiens."
     } ,
     {
@@ -206,7 +236,7 @@
     } ,
     {
         "title": "biblio__header__project",
-        "EN":"",
+        "EN":"Modern software for managing a library.",
         "FR":"Application de bureau moderne pour la gestion d'une bibliothèque."
     } ,
     {
@@ -221,7 +251,7 @@
     } ,
     {
         "title": "python__header__project",
-        "EN":"",
+        "EN":"Game of Projectile Shooting.",
         "FR":"Jeu de Tire de projectiles."
     } ,
     {
@@ -236,7 +266,7 @@
     } ,
     {
         "title": "mine__header__project",
-        "EN":"",
+        "EN":"Crystal mine game.",
         "FR":"Jeu de mine aux cristaux."
     } ,
     {
@@ -356,7 +386,7 @@
     } ,
     {
         "title": "qualification__section-title",
-        "EN":"Experiecne and studies",
+        "EN":"Experience and studies",
         "FR":"Expérience et études"
     },
     {
@@ -585,24 +615,144 @@
         "FR":"Backend"
     },
     {
+        "title": "portfolio__title1",
+        "EN":"Modern web application for online order management in a restaurant.",
+        "FR":"Application web moderne pour la gestion en ligne des commandes dans un restaurant."
+    },
+    {
+        "title": "portfolio__desc1",
+        "EN": "Web application allowing a restaurant manager to manage online orders made by his customers. the customer can register, log in, list all available products, fill his basket, and submit an order. Only logged-in managers can access the administration page to list all commands and change their status as needed. In addition, a new order, or changes to an already submitted order are displayed in real time to logged-in administrators.",
+        "FR": "Application Web permettant à un responsable de restaurant de gérer les commandes en ligne effectuées par ses clients. Le client peut s'inscrire, se connecter, lister tous les produits disponibles, remplir son panier et soumettre une commande. Seuls les administrateurs connectés peuvent accéder à la page d'administration pour afficher toutes les commandes et modifier leur état si nécessaire. En outre, une nouvelle commande ou des modifications apportées à une commande déjà soumise sont affichées en temps réel à tous les administrateurs connectés."
+    },
+    {
+        "title": "portfolio__title_dam",
+        "EN":"Modern software for managing multimedia files.",
+        "FR":"Application de bureau moderne pour la gestion des fichiers multimédia."
+    },
+    {
+        "title": "portfolio__desc_dam",
+        "EN": "A graphical interface to software that enables an organization to organize its media files. Through the app, users will be able to share, edit and download personal documents or those of other colleagues.",
+        "FR": "Interface graphique d'un logiciel permettant à une organisation d'organiser ses fichiers multimédia. A travers l'application, les utilisateurs pourront partager, modifier et télécharger des documents personnels ou ceux d'autres collègues."
+    },
+    {
+        "title": "portfolio__title_biblio",
+        "EN":"Modern software for managing a library.",
+        "FR":"Application de bureau moderne pour la gestion d'une bibliothèque."
+    },
+    {
+        "title": "portfolio__desc_biblio",
+        "EN": "A library management software, the user will be able to add, list, modify or delete documents from the library. The data is stored in a MySQL database.",
+        "FR": "Logiciel de gestion d'une bibiotheque, l'utilisateur sera capable d'ajouter, lister, modifier ou supprimer des documents de la bibliotheque. Les donnees sont stockees dans une base de donnees MySQL."
+    },
+    {
+        "title": "portfolio__title_quiz",
+        "EN":"Console application for creating and managing quiz.",
+        "FR":"Application console pour la création et la gestion des questionnaires."
+    },
+    {
+        "title": "portfolio__desc_quiz",
+        "EN": "Application allowing the teacher to create quiz and the students to participate in the quiz.",
+        "FR": "Application permettant d'une part à l'enseignant de créer des questionnaires, d'autre part aux étudiants de participer au questionnaire."
+    },
+    {
+        "title": "portfolio__title_sondage",
+        "EN":"Android app for polling Canadians' food preferences.",
+        "FR":"Application Android de sondage sur les préférences culinaires des Canadiens."
+    },
+    {
+        "title": "portfolio__desc_sondage",
+        "EN": "Each participant must register. After registration, the participant can log in and answer the survey questions. If the participant logs out and logs back in, the application will position the participant directly on the page they were on before logging out. Each poll is stored in a SQLite database.",
+        "FR": "Chaque participant doit s'isncrire. Après l'inscription, le participant peut se connecter et répondre aux questions du sondage. Si le participant se déconnecte et se de reconnecte de nouveau, l'application le positionnera directement à la page sur laquelle il était avant deconnexion. Chaque sondage est enregistré dans une base de données SQLite."
+     },
+     {
+        "title": "portfolio__title_python",
+        "EN":"Android app for polling Canadians' food preferences.",
+        "FR":"Application Android de sondage sur les préférences culinaires des Canadiens."
+    },
+    {
+        "title": "portfolio__desc_python",
+        "EN": "Projectile shooting game made using Python Pygame. The actor has a joge indicating his breath of life. This joge gets worse every time it's hit by an enemi projectile.",
+        "FR": "Jeu de tire de projectiles réaliser à l'aide de Pygame de Python. L'acteur possède une joge indiquant son souflle de vie. Cette joge decroit à chaque fois qu'il est touché par un projectile énémi."
+     },
+     {
+        "title": "portfolio__title_mine",
+        "EN":"Crystal mine game.",
+        "FR":"Jeu de mine aux cristaux."
+    },
+    {
+        "title": "portfolio__desc_mine",
+        "EN": "The game allows you to move a character in a mine filled with crystals. When the character finds a crystal, he picks it up. Each time the character breaks a block, the pin loses a point of strength. Once the pick no longer has a strength point, it breaks.The goal is to collect as many crystals as possible before the pick breaks.",
+        "FR": "Le jeu vous permet de déplacer un personnage dans une mine remplie de cristaux. Quand le personnage trouve un cristal, il le ramasse. Chaque fois que le personnage casse un bloc, l'axe perd un point de résistance. Une fois que la pioche n'a plus de point de résistance, il se casse. L'objectif est de recueillir autant de cristaux que possible avant que la pioche se casse."
+    },
+    {
+        "title": "portfolio__title_mvvb",
+        "EN":"Website for a conference on Better Living and Living Well.",
+        "FR":"Site web pour une conférence sur le Mieux Vivre et Vivre Bien."
+    },
+    {
+        "title": "portfolio__desc_mvvb",
+        "EN": "The site presents the conference's activities, a countdown linked to the conference's start date. The visitor can also contact the team organizing the conference via a form available on the site. Metadata has been added for each website page. In addition, the site has been optimized for SEO search indexing.",
+        "FR": "Le site présente les activités de la conférence, un compte à rebours lié à la date de debut de la conéfrence. Le visiteur peut aussi contacter l'équipe qui organise la conférence, à travers un formulaire disponible sur le site. les métadonnées ont été ajoutées pour chaque page site web. De plus, le site a été Optimisé pour l’indexation des engins de recherche SEO."
+    },
+    {
         "title": "view__more1",
         "EN":"View More",
-        "FR":"Voir plus"
+        "FR":"En savoir plus"
     },
     {
         "title": "view__more2",
         "EN":"View More",
-        "FR":"Voir plus"
+        "FR":"En savoir plus"
     },
     {
         "title": "view__more3",
         "EN":"View More",
-        "FR":"Voir plus"
+        "FR":"En savoir plus"
     },
     {
         "title": "view__more4",
         "EN":"View More",
-        "FR":"Voir plus"
+        "FR":"En savoir plus"
+    },
+    {
+        "title": "view__more5",
+        "EN":"View More",
+        "FR":"En savoir plus"
+    },
+    {
+        "title": "view__more6",
+        "EN":"View More",
+        "FR":"En savoir plus"
+    },
+    {
+        "title": "view__more7",
+        "EN":"View More",
+        "FR":"En savoir plus"
+    },
+    {
+        "title": "view__more8",
+        "EN":"View More",
+        "FR":"En savoir plus"
+    },
+    {
+        "title": "view__more_biblio",
+        "EN":"View More",
+        "FR":"En savoir plus"
+    },
+    {
+        "title": "view__more_dam",
+        "EN":"View More",
+        "FR":"En savoir plus"
+    },
+    {
+        "title": "view__more_resto",
+        "EN":"View More",
+        "FR":"En savoir plus"
+    },
+    {
+        "title": "view__more_mvvb",
+        "EN":"View More",
+        "FR":"En savoir plus"
     },
     {
         "title": "taches",
@@ -727,7 +877,7 @@
     {
         "title": "input__email",
         "EN":"Your email",
-        "FR":"Votre adresse courriel"
+        "FR":"Votre adresse courrielle"
     },
     {
         "title": "form__title",
