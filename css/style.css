@@ -619,10 +619,13 @@ img{
 }
 
 .project__subtitle{
-    margin-left: 3rem;
     font-size: var(--h3-font-size);
     line-height: 2rem;
     font-weight: bold;
+}
+
+.role_respo{
+    text-align: right;
 }
 
 .skills__arrow{
