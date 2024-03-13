@@ -1258,7 +1258,6 @@ es */
         justify-self: center;
     }
 
-    .about__container,
     .contact__container,
     .footer__container{
         grid-template-columns: repeat(2, 1fr);
@@ -1367,10 +1366,6 @@ es */
 
     .about__info{
         justify-content: space-between;
-    }
-
-    .about__buttons{
-        justify-content: initial;
     }
 
     .qualification__tabs{
@@ -1488,9 +1483,6 @@ es */
         font-size: var(--h2-font-size);
     }
 
-    .about__container{
-        grid-template-columns: repeat(2, 1fr);
-    }
 
     .about__img{
         width: 250px;
@@ -1536,7 +1528,7 @@ es */
     }
 
     .section{
-        padding: 12rem 0 1rem;
+        padding: 8rem 0 1rem;
     }
 
     .home__container{
