@@ -346,4 +346,4 @@ themeButton.addEventListener('click', () => {
 
 //Load English Content first
 // initDarkMode();
-setContent('FR');
+setContent('EN');
