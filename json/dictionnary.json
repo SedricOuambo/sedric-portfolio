@@ -176,8 +176,8 @@
     } ,
     {
         "title": "mvvb__languages",
-        "EN":"Next JS et React JS",
-        "FR":"Next JS and React JS"
+        "EN":"Next.js and React.js",
+        "FR":"Next.js et React.js"
     } ,
     {
         "title": "kmer__resto__header__project",
@@ -186,8 +186,8 @@
     } ,
     {
         "title": "kmer__resto__languages",
-        "EN":"HTML, CSS, JavaScript, Node JS (Express)",
-        "FR":"HTML, CSS, JavaScript, Node JS (Express)"
+        "EN":"HTML, CSS, JavaScript, Express.js",
+        "FR":"HTML, CSS, JavaScript, Express.js"
     } ,
     {
         "title": "dam__header__project",

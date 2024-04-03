@@ -271,6 +271,7 @@ img{
 .projet__en__savoir,
 .projet__lien{
     font-size: var(--h3-font-size);
+    margin-bottom: 1rem;
 }
 
 .taches,
