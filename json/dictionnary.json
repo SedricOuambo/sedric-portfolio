@@ -1,623 +1,623 @@
 [
     {
         "title": "home__title",
-        "EN":"Hi, I'am Sedric",
-        "FR":"Salut, je suis Sedric!"
-    } ,
+        "EN": "Hi, I'am Sedric",
+        "FR": "Salut, je suis Sedric!"
+    },
     {
         "title": "home__subtitle",
-        "EN":"Full Stack Developer | Mobile Developer",
-        "FR":"Dévelopeur Full Stack  | Développeur Mobile"
-    } ,
+        "EN": "Full Stack Developer | Mobile Developer",
+        "FR": "Dévelopeur Full Stack  | Développeur Mobile"
+    },
     {
         "title": "home__description",
         "EN": "High level experience in Computer Programming, producing quality work.",
-        "FR":"Expérience de haut niveau dans le domaine de programmation Informatique, produisant un travail de qualité."
-    } ,
+        "FR": "Expérience de haut niveau dans le domaine de programmation Informatique, produisant un travail de qualité."
+    },
     {
         "title": "contact__me",
-        "EN":"Contact",
-        "FR":"Contact"
-    } ,
+        "EN": "Contact",
+        "FR": "Contact"
+    },
     {
         "title": "my__portfolio",
-        "EN":"Portfolio",
-        "FR":"Portfolio"
-    } ,
+        "EN": "Portfolio",
+        "FR": "Portfolio"
+    },
     {
         "title": "home__srcoll-name",
-        "EN":"Scroll down",
-        "FR":"Explorer"
-    } ,
+        "EN": "Scroll down",
+        "FR": "Explorer"
+    },
     {
         "title": "about__me",
-        "EN":"About Me",
-        "FR":"Profil Professionnel"
-    } ,
+        "EN": "About Me",
+        "FR": "Profil Professionnel"
+    },
     {
         "title": "my__introduction",
-        "EN":"My introduction",
-        "FR":"Ma présentation"
-    } ,
+        "EN": "My introduction",
+        "FR": "Ma présentation"
+    },
     {
         "title": "about__description",
-        "EN":" I have a Bachelor's degree in Mathematics and Computer Science. I will obtained my Ontario College Diploma in Computer Programming in April 2024. I did a summer internship in 2023 as Python developer at CEPI-Collège La Cité College in Ottawa. During this internship, I have created documentation outlining procedures for managing move, sound, and visual sensors for robotic applications, resulting in a 30% reduction in training time. In addition to this internship, I worked with my classmates on several IT projects such as website for a conference using React.js and Next.js. In this project, I Developed and implemented Next.js routing, resulting in a 40% increase in organic traffic. I also implemented another web application for community support using Node.js. During this project, I managed and motivated the team to implement email and SMS sending. These actions increase user positive feedback by 50%. My goal is to contribute to the creation of powerful IT solutions, adapted to the needs of users and the challenges of today's world.",
-        "FR":"Passionné de développement Informatique, je suis Sedric Ouambo, un étudiant en deuxième année du DEC en Programmation Informatique au Collège La Cité à Ottawa, Canada. J'ai également un diplôme de licence en Mathématiques-Informatique option Informatique fondamentale et un diplôme de professeur de l'enseignement technique en Informatique, tous obtenus au Cameroun. Tout au long de mon parcours académique et lors de mon stage de 5 mois au sein du Centre d'Expertises en Prototypage Intelligent(CEPI) du Collège La Cité, j'ai participé à la conception et au développement de plusieurs projets innovants, en utilisant des langages et technologies variés, tels que Java, Python, C#, HTML, CSS, et des frameworks comme Django, React.JS, Next.JS et Express.JS de Node.js. J'ai pu démontrer ma capacité à analyser les besoins des clients, à coder de façon rigoureuse et efficace, et à travailler en mode agile avec d'autres développeurs. J'ai également amélioré mon niveau d'anglais et ma communication professionnelle. Je suis motivé par l'apprentissage continu et le développement de mes compétences, notamment dans la programmation web. Mon objectif est de contribuer à la création de solutions informatiques performantes, adaptées aux besoins des utilisateurs et aux enjeux du monde actuel."
-    } ,
+        "EN": "A professional with 7 years of experience in computer programming and teaching, combined with a solid training in computer science and a strong ability to quickly acquire new knowledge, I am able to work effectively in agile mode, autonomously or as a team perfectly in French and English. I have a strong knowledge of collecting client needs, a strong sense of organization and proven skills in teaching, coding techniques and computer program design.",
+        "FR": "Professionnel doté de 7 années d’expérience dans la programmation Informatique et l'enseignement, combinées à une solide formation en Informatique et une forte aptitude à acquérir rapidement de nouvelles connaissances, je suis capable de travailler efficacement en mode agile, de façon autonome ou en équipe parfaitement en français et en anglais. Je possède de fortes connaissances en recueil des besoins client, je fais aussi preuve d’un solide sens d’organisation et de compétences avérées en enseignement, technique de codage et conception des programmes Informatiques."
+    },
     {
         "title": "years",
-        "EN":"Years",
-        "FR":"Années"
-    } ,
+        "EN": "Years",
+        "FR": "Années"
+    },
     {
         "title": "years2",
-        "EN":"Years",
-        "FR":"Années"
-    } ,
+        "EN": "Years",
+        "FR": "Années"
+    },
     {
         "title": "years3",
-        "EN":"Years",
-        "FR":"Années"
-    } ,
+        "EN": "Years",
+        "FR": "Années"
+    },
     {
         "title": "experience-title1",
-        "EN":"experience",
-        "FR":"d'expérience"
-    } ,
+        "EN": "experience",
+        "FR": "d'expérience"
+    },
     {
         "title": "experience-title2",
-        "EN":"Projects",
-        "FR":"de projets"
-    } ,
+        "EN": "Projects",
+        "FR": "de projets"
+    },
     {
         "title": "experience-title3",
-        "EN":"Teaching",
-        "FR":"d'enseignement"
-    } ,
+        "EN": "Teaching",
+        "FR": "d'enseignement"
+    },
     {
         "title": "download",
-        "EN":"Download my CV",
-        "FR":"Télécharger mon CV"
-    }  ,
+        "EN": "Download my CV",
+        "FR": "Télécharger mon CV"
+    },
     {
         "title": "home",
-        "EN":"Home",
-        "FR":"Accueil"
-    } ,
+        "EN": "Home",
+        "FR": "Accueil"
+    },
     {
         "title": "about",
-        "EN":"About",
-        "FR":"Profil"
-    } ,
+        "EN": "About",
+        "FR": "Profil"
+    },
     {
         "title": "skills",
-        "EN":"Skills",
-        "FR":"Compétences"
-    } ,
+        "EN": "Skills",
+        "FR": "Compétences"
+    },
     {
         "title": "services",
-        "EN":"Services",
-        "FR":"Services"
-    } ,
+        "EN": "Services",
+        "FR": "Services"
+    },
     {
         "title": "experience",
-        "EN":"Experiences",
-        "FR":"Expérience"
+        "EN": "Experiences",
+        "FR": "Expérience"
     },
     {
         "title": "folio",
-        "EN":"Portfolio",
-        "FR":"Portfolio"
-    } ,
+        "EN": "Portfolio",
+        "FR": "Portfolio"
+    },
     {
         "title": "contactme",
-        "EN":"Contact",
-        "FR":"Contact"
-    } ,
+        "EN": "Contact",
+        "FR": "Contact"
+    },
     {
         "title": "skills__section-title",
-        "EN":"Skills",
-        "FR":"Savoir-faire et expertise"
-    } ,
+        "EN": "Skills",
+        "FR": "Savoir-faire et expertise"
+    },
     {
         "title": "skills__subtitle",
-        "EN":"My technical level",
-        "FR":"Mon niveau technique"
-    } ,
+        "EN": "My technical level",
+        "FR": "Mon niveau technique"
+    },
     {
         "title": "frontend__header__skill",
-        "EN":"Frontend developper",
-        "FR":"Développeur Frontend"
-    } ,
+        "EN": "Frontend developper",
+        "FR": "Développeur Frontend"
+    },
     {
         "title": "lang_fram_mvvb",
-        "EN":"Languages or Frameworks :",
-        "FR":"Langages ou Frameworks : "
-    } ,
+        "EN": "Languages or Frameworks :",
+        "FR": "Langages ou Frameworks : "
+    },
     {
         "title": "role_fram_mvvb",
-        "EN":"Role and responsibilities :",
-        "FR":"Rôle et responsabilités : "
-    } ,
+        "EN": "Role and responsibilities :",
+        "FR": "Rôle et responsabilités : "
+    },
     {
         "title": "mvvb__role",
-        "EN":"implementation of business logic, creation of the home and day 1 interface, implementation of the validation of the contact form and sending emails with EmailJS, Add all the metadata for each page of the website, optimize the website for the indexing of SEO search engines. optimization of the source code of other colleagues before submission.",
-        "FR":"implémentation de la logique métier, création de l’interface d’accueil et du jour 1, implémentation de la validation du formulaire de contact et envoi des mails avec EmailJS, Ajouter toutes les métadonnées pour chaque page du site web, optimiser le site web pour l’indexation des engins de recherche SEO. optimisation du code source des autres collègues avant soumission."
-    } ,
+        "EN": "implementation of business logic, creation of the home and day 1 interface, implementation of the validation of the contact form and sending emails with EmailJS, Add all the metadata for each page of the website, optimize the website for the indexing of SEO search engines. optimization of the source code of other colleagues before submission.",
+        "FR": "implémentation de la logique métier, création de l’interface d’accueil et du jour 1, implémentation de la validation du formulaire de contact et envoi des mails avec EmailJS, Ajouter toutes les métadonnées pour chaque page du site web, optimiser le site web pour l’indexation des engins de recherche SEO. optimisation du code source des autres collègues avant soumission."
+    },
     {
         "title": "role_fram_resto",
-        "EN":"Role and responsibilities :",
-        "FR":"Rôle et responsabilités : "
-    } ,
+        "EN": "Role and responsibilities :",
+        "FR": "Rôle et responsabilités : "
+    },
     {
         "title": "resto__role",
-        "EN":"Project Manager, MVC Project Organization and Evolution Tracking, Controller Part Implementation, Database Management, Session Management Implementation, Real-Time Data Display (RDS) Management, Securing Server Routes, Optimizing Application Source Code Prior to Submission.",
-        "FR":"chef de projet, Organisation du projet selon le modèle MVC et suivi de l’évolution, implémentation de la partie contrôleur, gestion de la base de données, implémentation de gestion des sessions, gestion de l’affichage des données en temps réel (SSE), sécurisation des routes du serveur, optimisation du code source de l’application avant soumission."
-    } ,
+        "EN": "Project Manager, MVC Project Organization and Evolution Tracking, Controller Part Implementation, Database Management, Session Management Implementation, Real-Time Data Display (RDS) Management, Securing Server Routes, Optimizing Application Source Code Prior to Submission.",
+        "FR": "chef de projet, Organisation du projet selon le modèle MVC et suivi de l’évolution, implémentation de la partie contrôleur, gestion de la base de données, implémentation de gestion des sessions, gestion de l’affichage des données en temps réel (SSE), sécurisation des routes du serveur, optimisation du code source de l’application avant soumission."
+    },
     {
         "title": "role_fram_dam",
-        "EN":"Role and responsibilities :",
-        "FR":"Rôle et responsabilités : "
-    } ,
+        "EN": "Role and responsibilities :",
+        "FR": "Rôle et responsabilités : "
+    },
     {
         "title": "dam__role",
-        "EN":"Implement the business logic part, create the user interface, and manage the database.",
-        "FR":"implémentation de la partie logique métier, création de l’interface utilisateur et gestion de la base de données."
-    } ,
+        "EN": "Implement the business logic part, create the user interface, and manage the database.",
+        "FR": "implémentation de la partie logique métier, création de l’interface utilisateur et gestion de la base de données."
+    },
     {
         "title": "lang_fram_resto",
-        "EN":"Languages or Frameworks :",
-        "FR":"Langages ou Frameworks : "
-    } ,
+        "EN": "Languages or Frameworks :",
+        "FR": "Langages ou Frameworks : "
+    },
     {
         "title": "mvvb__header__project",
-        "EN":"Website for a conference on Better Living and Living Well.",
-        "FR":"Site web pour une conférence sur le Mieux Vivre et Vivre Bien."
-    } ,
+        "EN": "Website for a conference on Better Living and Living Well.",
+        "FR": "Site web pour une conférence sur le Mieux Vivre et Vivre Bien."
+    },
     {
         "title": "mvvb__languages",
-        "EN":"Next.js and React.js",
-        "FR":"Next.js et React.js"
-    } ,
+        "EN": "Next.js and React.js",
+        "FR": "Next.js et React.js"
+    },
     {
         "title": "kmer__resto__header__project",
-        "EN":"Modern web application for online order management in a restaurant.",
-        "FR":"Application web moderne pour la gestion en ligne des commandes dans un restaurant."
-    } ,
+        "EN": "Modern web application for online order management in a restaurant.",
+        "FR": "Application web moderne pour la gestion en ligne des commandes dans un restaurant."
+    },
     {
         "title": "kmer__resto__languages",
-        "EN":"HTML, CSS, JavaScript, Express.js",
-        "FR":"HTML, CSS, JavaScript, Express.js"
-    } ,
+        "EN": "HTML, CSS, JavaScript, Express.js",
+        "FR": "HTML, CSS, JavaScript, Express.js"
+    },
     {
         "title": "dam__header__project",
-        "EN":"Modern software for managing multimedia files.",
-        "FR":"Application de bureau moderne pour la gestion des fichiers multimédia."
-    } ,
+        "EN": "Modern software for managing multimedia files.",
+        "FR": "Application de bureau moderne pour la gestion des fichiers multimédia."
+    },
     {
         "title": "dam__languages",
-        "EN":"C# and WPF",
-        "FR":"C# et WPF"
-    } ,
+        "EN": "C# and WPF",
+        "FR": "C# et WPF"
+    },
     {
         "title": "lang_fram_dam",
-        "EN":"Languages or Frameworks :",
-        "FR":"Langages ou Frameworks : "
-    } ,
+        "EN": "Languages or Frameworks :",
+        "FR": "Langages ou Frameworks : "
+    },
     {
         "title": "questionnaire__header__project",
-        "EN":"Console application for creating and managing quiz.",
-        "FR":"Application console pour la création et la gestion des questionnaires."
-    } ,
+        "EN": "Console application for creating and managing quiz.",
+        "FR": "Application console pour la création et la gestion des questionnaires."
+    },
     {
         "title": "questionnaire__languages",
-        "EN":"C# in console",
-        "FR":"C# en console et fichier .txt"
-    } ,
+        "EN": "C# in console",
+        "FR": "C# en console et fichier .txt"
+    },
     {
         "title": "lang_fram_questionnaire",
-        "EN":"Languages or Frameworks :",
-        "FR":"Langages ou Frameworks : "
-    } ,
+        "EN": "Languages or Frameworks :",
+        "FR": "Langages ou Frameworks : "
+    },
     {
         "title": "sondage__header__project",
-        "EN":"Android app for polling Canadians' food preferences.",
-        "FR":"Application Android de sondage sur les préférences culinaires des Canadiens."
-    } ,
+        "EN": "Android app for polling Canadians' food preferences.",
+        "FR": "Application Android de sondage sur les préférences culinaires des Canadiens."
+    },
     {
         "title": "sondage__languages",
-        "EN":"Android(Java) and SQLite",
-        "FR":"Andoid(Java) et SQLite"
-    } ,
+        "EN": "Android(Java) and SQLite",
+        "FR": "Andoid(Java) et SQLite"
+    },
     {
         "title": "lang_fram_sondage",
-        "EN":"Languages or Frameworks :",
-        "FR":"Langages ou Frameworks : "
-    } ,
+        "EN": "Languages or Frameworks :",
+        "FR": "Langages ou Frameworks : "
+    },
     {
         "title": "biblio__header__project",
-        "EN":"Modern software for managing a library.",
-        "FR":"Application de bureau moderne pour la gestion d'une bibliothèque."
-    } ,
+        "EN": "Modern software for managing a library.",
+        "FR": "Application de bureau moderne pour la gestion d'une bibliothèque."
+    },
     {
         "title": "biblio__languages",
-        "EN":"C#, WFP and MySQL",
-        "FR":"C#, WFP et MySQL"
-    } ,
+        "EN": "C#, WFP and MySQL",
+        "FR": "C#, WFP et MySQL"
+    },
     {
         "title": "lang_fram_biblio",
-        "EN":"Languages or Frameworks :",
-        "FR":"Langages ou Frameworks : "
-    } ,
+        "EN": "Languages or Frameworks :",
+        "FR": "Langages ou Frameworks : "
+    },
     {
         "title": "python__header__project",
-        "EN":"Game of Projectile Shooting.",
-        "FR":"Jeu de Tire de projectiles."
-    } ,
+        "EN": "Game of Projectile Shooting.",
+        "FR": "Jeu de Tire de projectiles."
+    },
     {
         "title": "python__languages",
-        "EN":"Pygame of Python ",
-        "FR":"Pygame de Python"
-    } ,
+        "EN": "Pygame of Python ",
+        "FR": "Pygame de Python"
+    },
     {
         "title": "lang_fram_python",
-        "EN":"Languages or Frameworks :",
-        "FR":"Langages ou Frameworks : "
-    } ,
+        "EN": "Languages or Frameworks :",
+        "FR": "Langages ou Frameworks : "
+    },
     {
         "title": "mine__header__project",
-        "EN":"Crystal mine game.",
-        "FR":"Jeu de mine aux cristaux."
-    } ,
+        "EN": "Crystal mine game.",
+        "FR": "Jeu de mine aux cristaux."
+    },
     {
         "title": "mine__languages",
-        "EN":"Pygame of Python ",
-        "FR":"HTML, CSS et JavaScript"
-    } ,
+        "EN": "Pygame of Python ",
+        "FR": "HTML, CSS et JavaScript"
+    },
     {
         "title": "lang_fram_mine",
-        "EN":"Languages or Frameworks :",
-        "FR":"Langages ou Frameworks : "
-    } ,
+        "EN": "Languages or Frameworks :",
+        "FR": "Langages ou Frameworks : "
+    },
     {
         "title": "frontend__years",
-        "EN":"More than 2 years",
-        "FR":"Plus de 2 années"
+        "EN": "More than 2 years",
+        "FR": "Plus de 2 années"
     },
     {
         "title": "software__header__skill",
-        "EN":"Softwares",
-        "FR":"Logiciels"
-    } ,
+        "EN": "Softwares",
+        "FR": "Logiciels"
+    },
     {
         "title": "software__years",
-        "EN":"More than 2 years",
-        "FR":"Plus de 2 années"
+        "EN": "More than 2 years",
+        "FR": "Plus de 2 années"
     },
     {
         "title": "collaboratif__header__skill",
-        "EN":"Teamwork",
-        "FR":"Travail collaboratif"
-    } ,
+        "EN": "Teamwork",
+        "FR": "Travail collaboratif"
+    },
     {
         "title": "collaboratif__years",
-        "EN":"More than 2 years",
-        "FR":"Plus de 2 années"
+        "EN": "More than 2 years",
+        "FR": "Plus de 2 années"
     },
     {
         "title": "backend__header__skill",
-        "EN":"Backend developper",
-        "FR":"Développeur Backend"
-    } ,
+        "EN": "Backend developper",
+        "FR": "Développeur Backend"
+    },
     {
         "title": "backend__years",
-        "EN":"More than 2 years",
-        "FR":"Plus de 2 années"
-    } ,
+        "EN": "More than 2 years",
+        "FR": "Plus de 2 années"
+    },
     {
         "title": "teacher__header__skill",
-        "EN":"Computer Science Teacher",
-        "FR":"Enseignant Programmation Informatique"
-    } ,
+        "EN": "Computer Science Teacher",
+        "FR": "Enseignant Programmation Informatique"
+    },
     {
         "title": "teacher__years",
-        "EN":"More than 7 years",
-        "FR":"Plus de 7 années"
-    } ,
+        "EN": "More than 7 years",
+        "FR": "Plus de 7 années"
+    },
     {
         "title": "mobile__header__skill",
-        "EN":"Mobile Software developper",
-        "FR":"Développeur application pour mobile"
-    } ,
+        "EN": "Mobile Software developper",
+        "FR": "Développeur application pour mobile"
+    },
     {
         "title": "mobile__years",
-        "EN":"More than 4 years",
-        "FR":"Plus de 4 années"
-    } ,
+        "EN": "More than 4 years",
+        "FR": "Plus de 4 années"
+    },
     {
         "title": "language__header__skill",
-        "EN":"Languages",
-        "FR":"Langues"
-    } ,
+        "EN": "Languages",
+        "FR": "Langues"
+    },
     {
         "title": "language__years",
-        "EN":"More than 10 years",
-        "FR":"Plus de 10 années"
-    } ,
+        "EN": "More than 10 years",
+        "FR": "Plus de 10 années"
+    },
     {
         "title": "bureau__header__skill",
-        "EN":"Software developper",
-        "FR":"Développeur application de bureau"
-    } ,
+        "EN": "Software developper",
+        "FR": "Développeur application de bureau"
+    },
     {
         "title": "bureau__years",
-        "EN":"More than 4 years",
-        "FR":"Plus de 4 années"
-    } ,
+        "EN": "More than 4 years",
+        "FR": "Plus de 4 années"
+    },
     {
         "title": "web__programming__skill",
-        "EN":"Web Programming",
-        "FR":"Programmation web"
-    } ,
+        "EN": "Web Programming",
+        "FR": "Programmation web"
+    },
     {
         "title": "datastructure__programming__skill",
-        "EN":"Data Structures",
-        "FR":"Structures de données"
-    } ,
+        "EN": "Data Structures",
+        "FR": "Structures de données"
+    },
     {
         "title": "poo__programming__skill",
-        "EN":"Oject Oriented Programmating",
-        "FR":"Programmation Orientée Objet"
-    } ,
+        "EN": "Oject Oriented Programmating",
+        "FR": "Programmation Orientée Objet"
+    },
     {
         "title": "algorithm__skill",
-        "EN":"Introduction to Algorithms",
-        "FR":"Initiation à la programmtion"
-    } ,
+        "EN": "Introduction to Algorithms",
+        "FR": "Initiation à la programmtion"
+    },
     {
         "title": "architecture__skill",
-        "EN":"Computer architecture",
-        "FR":"Architecture de l'ordinateur"
-    } ,
+        "EN": "Computer architecture",
+        "FR": "Architecture de l'ordinateur"
+    },
     {
         "title": "networking__skill",
-        "EN":"Introduction to Networking",
-        "FR":"Introduction aux réseaux informatiques"
-    } ,
+        "EN": "Introduction to Networking",
+        "FR": "Introduction aux réseaux informatiques"
+    },
     {
         "title": "qualification__section-title",
-        "EN":"Experience and studies",
-        "FR":"Expérience et études"
+        "EN": "Experience and studies",
+        "FR": "Expérience et études"
     },
     {
         "title": "qualification_subtitle",
-        "EN":"My personnal journey",
-        "FR":"Mon parcours personnel"
+        "EN": "My personnal journey",
+        "FR": "Mon parcours personnel"
     },
     {
         "title": "education",
-        "EN":"Education",
-        "FR":"Éducation"
+        "EN": "Education",
+        "FR": "Éducation"
     },
     {
         "title": "work",
-        "EN":"Work",
-        "FR":"Travail"
+        "EN": "Work",
+        "FR": "Travail"
     },
     {
         "title": "certificates",
-        "EN":"Certificates",
-        "FR":"Certificats"
+        "EN": "Certificates",
+        "FR": "Certificats"
     },
     {
         "title": "computer__programmer__qualif",
-        "EN":"Ontario College Diploma in Computer Programming",
-        "FR":"DEC en Programmation Informatique"
+        "EN": "Ontario College Diploma in Computer Programming",
+        "FR": "DEC en Programmation Informatique"
     },
     {
         "title": "computer__programmer__subqualif",
-        "EN":"La Cité Collégiale College, Ottawa, Canada",
-        "FR":"Collège La Cité, Ottawa, Canada"
+        "EN": "La Cité Collégiale College, Ottawa, Canada",
+        "FR": "Collège La Cité, Ottawa, Canada"
     },
     {
         "title": "qualif2",
-        "EN":"Bachelor's degree in Computer Network",
-        "FR":"Master 1 en réseaux informatiques"
+        "EN": "Bachelor's degree in Computer Network",
+        "FR": "Master 1 en réseaux informatiques"
     },
     {
         "title": "subqualif2",
-        "EN":"University of Dschang, Cameroon",
-        "FR":"Université de Dschang; Cameroun"
+        "EN": "University of Dschang, Cameroon",
+        "FR": "Université de Dschang; Cameroun"
     },
     {
         "title": "qualif3",
-        "EN":"Computer Science Technical Teacher",
-        "FR":"Diplôme d'enseignant d'Informatique"
+        "EN": "Computer Science Technical Teacher",
+        "FR": "Diplôme d'enseignant d'Informatique"
     },
     {
         "title": "subqualif3",
-        "EN":"University of Bamenda, Cameroon",
-        "FR":"Université de Bamenda; Cameroun"
+        "EN": "University of Bamenda, Cameroon",
+        "FR": "Université de Bamenda; Cameroun"
     },
     {
         "title": "qualif4",
-        "EN":"Bachelor's degree in Mathematics and Computer Science",
-        "FR":"Licence en Mathématiques - Informatique"
+        "EN": "Bachelor's degree in Mathematics and Computer Science",
+        "FR": "Licence en Mathématiques - Informatique"
     },
     {
         "title": "subqualif4",
-        "EN":"University of Dschang, Cameroon",
-        "FR":"Université de Dschang; Cameroun"
+        "EN": "University of Dschang, Cameroon",
+        "FR": "Université de Dschang; Cameroun"
     },
     {
         "title": "work1",
-        "EN":"Python Developper/Intern (40h/week)",
-        "FR":"Développeur Python/Stage (40h/semaine)"
+        "EN": "Python Developper/Intern (40h/week)",
+        "FR": "Développeur Python/Stage (40h/semaine)"
     },
     {
         "title": "subwork1",
-        "EN":"CEPI - La Cité Collégiale College, Ottawa, Canada",
-        "FR":"CEPI - La Cité Collégiale, Ottawa, Canada"
+        "EN": "CEPI - La Cité Collégiale College, Ottawa, Canada",
+        "FR": "CEPI - La Cité Collégiale, Ottawa, Canada"
     },
     {
         "title": "work2",
-        "EN":"Computer Science teacher",
-        "FR":"Enseignant d'Informatique"
+        "EN": "Computer Science teacher",
+        "FR": "Enseignant d'Informatique"
     },
     {
         "title": "subwork2",
-        "EN":"Technical High School Santchou, Cameroon",
-        "FR":"Lycée Technique de Santchou; Cameroun"
+        "EN": "Technical High School Santchou, Cameroon",
+        "FR": "Lycée Technique de Santchou; Cameroun"
     },
     {
         "title": "work3",
-        "EN":"Technical support",
-        "FR":"Soutien Technique"
+        "EN": "Technical support",
+        "FR": "Soutien Technique"
     },
     {
         "title": "subwork3",
-        "EN":"Technical High School Santchou, Cameroon",
-        "FR":"Lycée Technique de Santchou; Cameroun"
+        "EN": "Technical High School Santchou, Cameroon",
+        "FR": "Lycée Technique de Santchou; Cameroun"
     },
     {
         "title": "certif1",
-        "EN":"PCAP - Certified Associate in Python Programming",
-        "FR":"PCAP - Certifié niveau Associé en Programmation Python"
+        "EN": "PCAP - Certified Associate in Python Programming",
+        "FR": "PCAP - Certifié niveau Associé en Programmation Python"
     },
     {
         "title": "verif1",
-        "EN":"verification link",
-        "FR":"lien de vérification"
+        "EN": "verification link",
+        "FR": "lien de vérification"
     },
     {
         "title": "date1",
-        "EN":"August 18, 2023",
-        "FR":"18 août 2023"
+        "EN": "August 18, 2023",
+        "FR": "18 août 2023"
     },
     {
         "title": "certif2",
-        "EN":"Android Certified Application Developer",
-        "FR":"Développeur Certifié d'Application Android"
+        "EN": "Android Certified Application Developer",
+        "FR": "Développeur Certifié d'Application Android"
     },
     {
         "title": "verif2",
-        "EN":"verification link",
-        "FR":"lien de vérification"
+        "EN": "verification link",
+        "FR": "lien de vérification"
     },
     {
         "title": "date2",
-        "EN":"October 23, 2023",
-        "FR":"23 Octobre 2023"
+        "EN": "October 23, 2023",
+        "FR": "23 Octobre 2023"
     },
     {
         "title": "qualif_work1",
-        "EN":"may 2023 - september 2023",
-        "FR":"mai 2023 - septembre 2023"
+        "EN": "may 2023 - september 2023",
+        "FR": "mai 2023 - septembre 2023"
     },
     {
         "title": "service__head",
-        "EN":"Services",
-        "FR":"Services"
+        "EN": "Services",
+        "FR": "Services"
     },
     {
         "title": "service__subhead",
-        "EN":"What I offer",
-        "FR":"Ce que j'offre"
+        "EN": "What I offer",
+        "FR": "Ce que j'offre"
     },
     {
         "title": "service__title1",
-        "EN":"Backend",
-        "FR":"Développeur"
+        "EN": "Backend",
+        "FR": "Développeur"
     },
     {
         "title": "service__title11",
-        "EN":"Developper",
-        "FR":"Backend"
+        "EN": "Developper",
+        "FR": "Backend"
     },
     {
         "title": "service__title2",
-        "EN":"Backendend",
-        "FR":"Développeur"
+        "EN": "Backendend",
+        "FR": "Développeur"
     },
     {
         "title": "service__title21",
-        "EN":"Developper",
-        "FR":"Backtend"
+        "EN": "Developper",
+        "FR": "Backtend"
     },
     {
         "title": "service__title3",
-        "EN":"Frontend",
-        "FR":"Développeur"
+        "EN": "Frontend",
+        "FR": "Développeur"
     },
     {
         "title": "service__title31",
-        "EN":"Developper",
-        "FR":"Frontend"
+        "EN": "Developper",
+        "FR": "Frontend"
     },
     {
         "title": "service__title4",
-        "EN":"Frontend",
-        "FR":"Développeur"
+        "EN": "Frontend",
+        "FR": "Développeur"
     },
     {
         "title": "service__title41",
-        "EN":"Developper",
-        "FR":"Frontend"
+        "EN": "Developper",
+        "FR": "Frontend"
     },
     {
         "title": "service__title5",
-        "EN":"Software",
-        "FR":"Développeur"
+        "EN": "Software",
+        "FR": "Développeur"
     },
     {
         "title": "service__title51",
-        "EN":"Developper",
-        "FR":"d'application de bureau."
+        "EN": "Developper",
+        "FR": "d'application de bureau."
     },
     {
         "title": "service__title6",
-        "EN":"Software",
-        "FR":"Développeur"
+        "EN": "Software",
+        "FR": "Développeur"
     },
     {
         "title": "service__title61",
-        "EN":"Developper",
-        "FR":"d'application de bureau."
+        "EN": "Developper",
+        "FR": "d'application de bureau."
     },
     {
         "title": "service__title7",
-        "EN":"Computer Programming",
-        "FR":"Enseignant"
+        "EN": "Computer Programming",
+        "FR": "Enseignant"
     },
     {
         "title": "service__title71",
-        "EN":"Teacher",
-        "FR":"de Programmation Informatique."
+        "EN": "Teacher",
+        "FR": "de Programmation Informatique."
     },
     {
         "title": "service__title8",
-        "EN":"Computer Programming",
-        "FR":"Enseignant"
+        "EN": "Computer Programming",
+        "FR": "Enseignant"
     },
     {
         "title": "service__title81",
-        "EN":"Teacher",
-        "FR":"de Programmation Informatique."
+        "EN": "Teacher",
+        "FR": "de Programmation Informatique."
     },
     {
         "title": "service__title2",
-        "EN":"Backend",
-        "FR":"Développeur"
+        "EN": "Backend",
+        "FR": "Développeur"
     },
     {
         "title": "service__title21",
-        "EN":"Developper",
-        "FR":"Backend"
+        "EN": "Developper",
+        "FR": "Backend"
     },
     {
         "title": "portfolio__title1",
-        "EN":"Modern web application for online order management in a restaurant.",
-        "FR":"Application web moderne pour la gestion en ligne des commandes dans un restaurant."
+        "EN": "Modern web application for online order management in a restaurant.",
+        "FR": "Application web moderne pour la gestion en ligne des commandes dans un restaurant."
     },
     {
         "title": "portfolio__desc1",
@@ -626,8 +626,8 @@
     },
     {
         "title": "portfolio__title_dam",
-        "EN":"Modern software for managing multimedia files.",
-        "FR":"Application de bureau moderne pour la gestion des fichiers multimédia."
+        "EN": "Modern software for managing multimedia files.",
+        "FR": "Application de bureau moderne pour la gestion des fichiers multimédia."
     },
     {
         "title": "portfolio__desc_dam",
@@ -636,8 +636,8 @@
     },
     {
         "title": "portfolio__title_biblio",
-        "EN":"Modern software for managing a library.",
-        "FR":"Application de bureau moderne pour la gestion d'une bibliothèque."
+        "EN": "Modern software for managing a library.",
+        "FR": "Application de bureau moderne pour la gestion d'une bibliothèque."
     },
     {
         "title": "portfolio__desc_biblio",
@@ -646,8 +646,8 @@
     },
     {
         "title": "portfolio__title_quiz",
-        "EN":"Console application for creating and managing quiz.",
-        "FR":"Application console pour la création et la gestion des questionnaires."
+        "EN": "Console application for creating and managing quiz.",
+        "FR": "Application console pour la création et la gestion des questionnaires."
     },
     {
         "title": "portfolio__desc_quiz",
@@ -656,28 +656,28 @@
     },
     {
         "title": "portfolio__title_sondage",
-        "EN":"Android app for polling Canadians' food preferences.",
-        "FR":"Application Android de sondage sur les préférences culinaires des Canadiens."
+        "EN": "Android app for polling Canadians' food preferences.",
+        "FR": "Application Android de sondage sur les préférences culinaires des Canadiens."
     },
     {
         "title": "portfolio__desc_sondage",
         "EN": "Each participant must register. After registration, the participant can log in and answer the survey questions. If the participant logs out and logs back in, the application will position the participant directly on the page they were on before logging out. Each poll is stored in a SQLite database.",
         "FR": "Chaque participant doit s'isncrire. Après l'inscription, le participant peut se connecter et répondre aux questions du sondage. Si le participant se déconnecte et se de reconnecte de nouveau, l'application le positionnera directement à la page sur laquelle il était avant deconnexion. Chaque sondage est enregistré dans une base de données SQLite."
-     },
-     {
+    },
+    {
         "title": "portfolio__title_python",
-        "EN":"Android app for polling Canadians' food preferences.",
-        "FR":"Application Android de sondage sur les préférences culinaires des Canadiens."
+        "EN": "Android app for polling Canadians' food preferences.",
+        "FR": "Application Android de sondage sur les préférences culinaires des Canadiens."
     },
     {
         "title": "portfolio__desc_python",
         "EN": "Projectile shooting game made using Python Pygame. The actor has a joge indicating his breath of life. This joge gets worse every time it's hit by an enemi projectile.",
         "FR": "Jeu de tire de projectiles réaliser à l'aide de Pygame de Python. L'acteur possède une joge indiquant son souflle de vie. Cette joge decroit à chaque fois qu'il est touché par un projectile énémi."
-     },
-     {
+    },
+    {
         "title": "portfolio__title_mine",
-        "EN":"Crystal mine game.",
-        "FR":"Jeu de mine aux cristaux."
+        "EN": "Crystal mine game.",
+        "FR": "Jeu de mine aux cristaux."
     },
     {
         "title": "portfolio__desc_mine",
@@ -686,8 +686,8 @@
     },
     {
         "title": "portfolio__title_mvvb",
-        "EN":"Website for a conference on Better Living and Living Well.",
-        "FR":"Site web pour une conférence sur le Mieux Vivre et Vivre Bien."
+        "EN": "Website for a conference on Better Living and Living Well.",
+        "FR": "Site web pour une conférence sur le Mieux Vivre et Vivre Bien."
     },
     {
         "title": "portfolio__desc_mvvb",
@@ -696,197 +696,192 @@
     },
     {
         "title": "view__more1",
-        "EN":"View More",
-        "FR":"En savoir plus"
+        "EN": "View More",
+        "FR": "En savoir plus"
     },
     {
         "title": "view__more2",
-        "EN":"View More",
-        "FR":"En savoir plus"
+        "EN": "View More",
+        "FR": "En savoir plus"
     },
     {
         "title": "view__more3",
-        "EN":"View More",
-        "FR":"En savoir plus"
+        "EN": "View More",
+        "FR": "En savoir plus"
     },
     {
         "title": "view__more4",
-        "EN":"View More",
-        "FR":"En savoir plus"
+        "EN": "View More",
+        "FR": "En savoir plus"
     },
     {
         "title": "view__more5",
-        "EN":"View More",
-        "FR":"En savoir plus"
+        "EN": "View More",
+        "FR": "En savoir plus"
     },
     {
         "title": "view__more6",
-        "EN":"View More",
-        "FR":"En savoir plus"
+        "EN": "View More",
+        "FR": "En savoir plus"
     },
     {
         "title": "view__more7",
-        "EN":"View More",
-        "FR":"En savoir plus"
+        "EN": "View More",
+        "FR": "En savoir plus"
     },
     {
         "title": "view__more8",
-        "EN":"View More",
-        "FR":"En savoir plus"
+        "EN": "View More",
+        "FR": "En savoir plus"
     },
     {
         "title": "view__more_biblio",
-        "EN":"View More",
-        "FR":"En savoir plus"
+        "EN": "View More",
+        "FR": "En savoir plus"
     },
     {
         "title": "view__more_dam",
-        "EN":"View More",
-        "FR":"En savoir plus"
+        "EN": "View More",
+        "FR": "En savoir plus"
     },
     {
         "title": "view__more_resto",
-        "EN":"View More",
-        "FR":"En savoir plus"
+        "EN": "View More",
+        "FR": "En savoir plus"
     },
     {
         "title": "view__more_mvvb",
-        "EN":"View More",
-        "FR":"En savoir plus"
+        "EN": "View More",
+        "FR": "En savoir plus"
     },
     {
         "title": "taches",
-        "EN":"Tasks",
-        "FR":"Tâches"
+        "EN": "Tasks",
+        "FR": "Tâches"
     },
     {
         "title": "taches2",
-        "EN":"Tasks",
-        "FR":"Tâches"
+        "EN": "Tasks",
+        "FR": "Tâches"
     },
     {
         "title": "taches3",
-        "EN":"Tasks",
-        "FR":"Tâches"
+        "EN": "Tasks",
+        "FR": "Tâches"
     },
     {
         "title": "service__description1",
-        "EN":"I am able work on the backend of web application, independenly or as a team member.",
-        "FR":"Je suis capable de travailler sur la partie backend d'une application web, tant en équipe que de façon autonome."
+        "EN": "I am able work on the backend of web application, independenly or as a team member.",
+        "FR": "Je suis capable de travailler sur la partie backend d'une application web, tant en équipe que de façon autonome."
     },
     {
         "title": "service__description2",
-        "EN":"I am able to work on the frontend of web application, independenly or as a team member.",
-        "FR":"Je suis capable de travailler sur la partie frontend d'une application web, tant en équipe que de façon autonome."
+        "EN": "I am able to work on the frontend of web application, independenly or as a team member.",
+        "FR": "Je suis capable de travailler sur la partie frontend d'une application web, tant en équipe que de façon autonome."
     },
     {
         "title": "service__description31",
-        "EN":"I am able to develop software using C# and WPF, with Database access like MySQL.",
-        "FR":"Je suis capbable de développer une application de bureau en utilisant le langage C#, avec connexion à une base de données comme MySQL."
+        "EN": "I am able to develop software using C# and WPF, with Database access like MySQL.",
+        "FR": "Je suis capbable de développer une application de bureau en utilisant le langage C#, avec connexion à une base de données comme MySQL."
     },
     {
         "title": "service__description32",
-        "EN":"I develop Android Application.",
-        "FR":"Je suis capable de développer une application mobile pour la plateforme Android."
+        "EN": "I develop Android Application.",
+        "FR": "Je suis capable de développer une application mobile pour la plateforme Android."
     },
     {
         "title": "service__description33",
-        "EN":"I develop software using Python language, with SGBD access like MySQL.",
-        "FR":"Je suis capbable de développer une application de bureau en utilisant le langage Python, avec connexion à une base de données comme MySQL."
+        "EN": "I develop software using Python language, with SGBD access like MySQL.",
+        "FR": "Je suis capbable de développer une application de bureau en utilisant le langage Python, avec connexion à une base de données comme MySQL."
     },
     {
         "title": "service__description41",
-        "EN":"I can teach introduction to computer programming.",
-        "FR":"Capable de dispenser des cours d'initiation à la programmation Informatique."
+        "EN": "I can teach introduction to computer programming.",
+        "FR": "Capable de dispenser des cours d'initiation à la programmation Informatique."
     },
     {
         "title": "service__description42",
-        "EN":"I can teach Object Oriented Programming using Java, C# and Python.",
-        "FR":"Je suis apte à dispenser des cours de programmation Orientée Objet en utilisant les langages Java, Python et C#"
+        "EN": "I can teach Object Oriented Programming using Java, C# and Python.",
+        "FR": "Je suis apte à dispenser des cours de programmation Orientée Objet en utilisant les langages Java, Python et C#"
     },
     {
         "title": "service__description43",
-        "EN":"I am able to teach introduction to frontend web programming.",
-        "FR":"Je suis capable de dispenser des cours d'introduction à la programmation Web Client."
+        "EN": "I am able to teach introduction to frontend web programming.",
+        "FR": "Je suis capable de dispenser des cours d'introduction à la programmation Web Client."
     },
     {
         "title": "service__description44",
-        "EN":"I can teach Android Programming using Kotlin and java.",
-        "FR":"Je suis apte à dispenser des cours de programmation Android en utilisant les langages Kotlin et Java."
+        "EN": "I can teach Android Programming using Kotlin and java.",
+        "FR": "Je suis apte à dispenser des cours de programmation Android en utilisant les langages Kotlin et Java."
     },
     {
         "title": "service__description45",
-        "EN":"I can teach Advanced web programming.",
-        "FR":"Je suis apte à dispenser des cours de programmation web Avancée."
+        "EN": "I can teach Advanced web programming.",
+        "FR": "Je suis apte à dispenser des cours de programmation web Avancée."
     },
     {
         "title": "service__description46",
-        "EN":"I am able to teach introduction to backend web programming.",
-        "FR":"Je suis apte à dispenser des cours d'introduction à la programmation des serveurs web."
+        "EN": "I am able to teach introduction to backend web programming.",
+        "FR": "Je suis apte à dispenser des cours d'introduction à la programmation des serveurs web."
     },
     {
         "title": "service__description47",
-        "EN":"I am able to teach Software Development.",
-        "FR":"Je suis apte à dispenser des cours de développement d'application de bureau."
+        "EN": "I am able to teach Software Development.",
+        "FR": "Je suis apte à dispenser des cours de développement d'application de bureau."
     },
     {
         "title": "footer__job",
-        "EN":"Programmer Analyst",
-        "FR":"Analyste-programmeur"
+        "EN": "Programmer Analyst",
+        "FR": "Analyste-programmeur"
     },
     {
         "title": "copy__right",
-        "EN":"All right reserved",
-        "FR":"Tout droit reservé"
+        "EN": "All right reserved",
+        "FR": "Tout droit reservé"
     },
     {
         "title": "send__message",
-        "EN":"Send message",
-        "FR":"Envoyer message"
+        "EN": "Send message",
+        "FR": "Envoyer message"
     },
     {
         "title": "call__me",
-        "EN":"Call me",
-        "FR":"Appeler"
+        "EN": "Call me",
+        "FR": "Appeler"
     },
     {
         "title": "email",
-        "EN":"Email",
-        "FR":"Courriel"
-    },
-    {
-        "title": "location",
-        "EN":"Address",
-        "FR":"Adresse"
+        "EN": "Email",
+        "FR": "Courriel"
     },
     {
         "title": "contact__me__title",
-        "EN":"Contact Me",
-        "FR":"Me contacter"
+        "EN": "Contact Me",
+        "FR": "Me contacter"
     },
     {
         "title": "input__name",
-        "EN":"Your name",
-        "FR":"Votre nom"
+        "EN": "Your name",
+        "FR": "Votre nom"
     },
     {
         "title": "input__object",
-        "EN":"Message subject",
-        "FR":"Objet du message"
+        "EN": "Message subject",
+        "FR": "Objet du message"
     },
     {
         "title": "input__email",
-        "EN":"Your email",
-        "FR":"Votre adresse courrielle"
+        "EN": "Your email",
+        "FR": "Votre adresse courrielle"
     },
     {
         "title": "form__title",
-        "EN":"Send me an email",
-        "FR":"Envoyez moi un courriel"
+        "EN": "Send me an email",
+        "FR": "Envoyez moi un courriel"
     },
     {
         "title": "most__recent",
-        "EN":"Most recent projects",
-        "FR":"Les projets les plus recents"
-    }    
+        "EN": "Most recent projects",
+        "FR": "Les projets les plus recents"
+    }
 ]
