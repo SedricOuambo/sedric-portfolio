@@ -130,11 +130,6 @@
         "FR": "Développeur Frontend"
     },
     {
-        "title": "lang_fram_mvvb",
-        "EN": "Languages or Frameworks :",
-        "FR": "Langages ou Frameworks : "
-    },
-    {
         "title": "role_fram_mvvb",
         "EN": "Role and responsibilities :",
         "FR": "Rôle et responsabilités : "
@@ -163,11 +158,6 @@
         "title": "dam__role",
         "EN": "Implement the business logic part, create the user interface, and manage the database.",
         "FR": "implémentation de la partie logique métier, création de l’interface utilisateur et gestion de la base de données."
-    },
-    {
-        "title": "lang_fram_resto",
-        "EN": "Languages or Frameworks :",
-        "FR": "Langages ou Frameworks : "
     },
     {
         "title": "mvvb__header__project",
@@ -200,11 +190,6 @@
         "FR": "C# et WPF"
     },
     {
-        "title": "lang_fram_dam",
-        "EN": "Languages or Frameworks :",
-        "FR": "Langages ou Frameworks : "
-    },
-    {
         "title": "questionnaire__header__project",
         "EN": "Console application for creating and managing quiz.",
         "FR": "Application console pour la création et la gestion des questionnaires."
@@ -213,11 +198,6 @@
         "title": "questionnaire__languages",
         "EN": "C# in console",
         "FR": "C# en console et fichier .txt"
-    },
-    {
-        "title": "lang_fram_questionnaire",
-        "EN": "Languages or Frameworks :",
-        "FR": "Langages ou Frameworks : "
     },
     {
         "title": "sondage__header__project",
@@ -230,11 +210,6 @@
         "FR": "Andoid(Java) et SQLite"
     },
     {
-        "title": "lang_fram_sondage",
-        "EN": "Languages or Frameworks :",
-        "FR": "Langages ou Frameworks : "
-    },
-    {
         "title": "biblio__header__project",
         "EN": "Modern software for managing a library.",
         "FR": "Application de bureau moderne pour la gestion d'une bibliothèque."
@@ -243,11 +218,6 @@
         "title": "biblio__languages",
         "EN": "C#, WFP and MySQL",
         "FR": "C#, WFP et MySQL"
-    },
-    {
-        "title": "lang_fram_biblio",
-        "EN": "Languages or Frameworks :",
-        "FR": "Langages ou Frameworks : "
     },
     {
         "title": "python__header__project",
@@ -260,11 +230,6 @@
         "FR": "Pygame de Python"
     },
     {
-        "title": "lang_fram_python",
-        "EN": "Languages or Frameworks :",
-        "FR": "Langages ou Frameworks : "
-    },
-    {
         "title": "mine__header__project",
         "EN": "Crystal mine game.",
         "FR": "Jeu de mine aux cristaux."
@@ -275,14 +240,9 @@
         "FR": "HTML, CSS et JavaScript"
     },
     {
-        "title": "lang_fram_mine",
-        "EN": "Languages or Frameworks :",
-        "FR": "Langages ou Frameworks : "
-    },
-    {
         "title": "frontend__years",
-        "EN": "More than 2 years",
-        "FR": "Plus de 2 années"
+        "EN": "More than 4 years",
+        "FR": "Plus de 4 années"
     },
     {
         "title": "software__header__skill",
@@ -291,8 +251,8 @@
     },
     {
         "title": "software__years",
-        "EN": "More than 2 years",
-        "FR": "Plus de 2 années"
+        "EN": "More than 4 years",
+        "FR": "Plus de 4 années"
     },
     {
         "title": "collaboratif__header__skill",
@@ -301,8 +261,8 @@
     },
     {
         "title": "collaboratif__years",
-        "EN": "More than 2 years",
-        "FR": "Plus de 2 années"
+        "EN": "More than 4 years",
+        "FR": "Plus de 4 années"
     },
     {
         "title": "backend__header__skill",
@@ -311,8 +271,8 @@
     },
     {
         "title": "backend__years",
-        "EN": "More than 2 years",
-        "FR": "Plus de 2 années"
+        "EN": "More than 4 years",
+        "FR": "Plus de 4 années"
     },
     {
         "title": "teacher__header__skill",
@@ -431,8 +391,8 @@
     },
     {
         "title": "qualif3",
-        "EN": "Computer Science Technical Teacher",
-        "FR": "Diplôme d'enseignant d'Informatique"
+        "EN": "Master's degree of Education, Computer Science option (WES Equivalence)",
+        "FR": "Master en Education"
     },
     {
         "title": "subqualif3",
@@ -441,13 +401,23 @@
     },
     {
         "title": "qualif4",
-        "EN": "Bachelor's degree in Mathematics and Computer Science",
+        "EN": "Bachelor's degree in Mathematics and Computer Science (WES Equivalence)",
         "FR": "Licence en Mathématiques - Informatique"
     },
     {
         "title": "subqualif4",
         "EN": "University of Dschang, Cameroon",
         "FR": "Université de Dschang; Cameroun"
+    },
+    {
+        "title": "workNext",
+        "EN": "Advanced web programming professor",
+        "FR": "Professeur de programmation web avancé"
+    },
+    {
+        "title": "subworkNext",
+        "EN": "CEPI - La Cité Collégiale College, Ottawa, Canada",
+        "FR": "CEPI - La Cité Collégiale, Ottawa, Canada"
     },
     {
         "title": "work1",
@@ -510,9 +480,9 @@
         "FR": "23 Octobre 2023"
     },
     {
-        "title": "qualif_work1",
-        "EN": "may 2023 - september 2023",
-        "FR": "mai 2023 - septembre 2023"
+        "title": "qualif_workNext",
+        "EN": "may 2024 - to present",
+        "FR": "mai 2024 - à nos jours"
     },
     {
         "title": "service__head",
@@ -755,6 +725,11 @@
         "FR": "En savoir plus"
     },
     {
+        "title": "tachesNext",
+        "EN": "Tasks",
+        "FR": "Tâches"
+    },
+    {
         "title": "taches",
         "EN": "Tasks",
         "FR": "Tâches"
@@ -831,8 +806,8 @@
     },
     {
         "title": "footer__job",
-        "EN": "Programmer Analyst",
-        "FR": "Analyste-programmeur"
+        "EN": "Full Stack Developer | Mobile Developer",
+        "FR": "Dévelopeur Full Stack  | Développeur Mobile"
     },
     {
         "title": "copy__right",

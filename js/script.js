@@ -4,14 +4,14 @@
  * @param {string} courriel 
  * @returns bool
  */
-function isCourrielValide(couriel){
+function isCourrielValide(couriel) {
     //Reference : https://stackoverflow.com/questions/46155/how-can-i-validate-an-email-address-in-javascript
     let reg = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-    return couriel.length >= 8 && 
-           String(couriel).toLowerCase().match(reg);
+    return couriel.length >= 8 &&
+        String(couriel).toLowerCase().match(reg);
 }
 
-const success = () =>{
+const success = () => {
     document.getElementById('sender_subject').value = "";
     document.getElementById('sender_message').value = "";
     document.getElementById('infos').style.color = 'green';
@@ -19,30 +19,42 @@ const success = () =>{
 }
 
 /**************** Envoi de message ************************* */
-function sendMail(){
+function sendMail() {
     let nom = document.getElementById('sender_name').value;
     let objet = document.getElementById('sender_subject').value;
     let email = document.getElementById('sender_email').value;
     let message = document.getElementById('sender_message').value;
+    const language_button = document.getElementById('home__language');
+    const language = language_button.textContent.toString();
 
     const infos = document.getElementById('infos');
 
-    if(nom === "" || email === "" || message === ""){
+    if (nom === "" || email === "" || message === "") {
         infos.style.color = 'red';
-        infos.textContent = "Veuillez remplir tous les champs obligatoires";
+        if (!language === 'FR') {
+            infos.textContent = "Veuillez remplir tous les champs obligatoires.";
+        }
+        else {
+            infos.textContent = "Please fill in all required fields.";
+        }
     }
-    else if(!isCourrielValide(email)){
+    else if (!isCourrielValide(email)) {
         infos.style.color = 'red';
-        infos.textContent = "Adresse courrielle invalide";
-    }else{
+        if (!language === 'FR') {
+            infos.textContent = "Adresse courrielle invalide.";
+        }
+        else{
+            infos.textContent = "Invalid email address.";
+        }
+    } else {
         let parms = {
-            name : nom,
-            subject : objet,
-            email : email,
-            message : message,
+            name: nom,
+            subject: objet,
+            email: email,
+            message: message,
         }
         emailjs.send("service_7xr0l1o", "template_qxyqu87", parms)
-        .then(success())
+            .then(success())
     }
 }
 
@@ -51,9 +63,9 @@ send_button.addEventListener('click', sendMail);
 
 /************************ Gestion des nav__item du header************************/
 const nav_item_list = document.querySelectorAll('#nav__item');
-nav_item_list.forEach(item =>{
-    item.addEventListener('click', () =>{
-        nav_item_list.forEach(nav_item =>{
+nav_item_list.forEach(item => {
+    item.addEventListener('click', () => {
+        nav_item_list.forEach(nav_item => {
             nav_item.classList.remove('active__nav__item');
         });
         item.classList.add('active__nav__item');
@@ -66,29 +78,29 @@ const download_link = document.getElementById('download_link');
 
 language_button.addEventListener('click', changeLanguage);
 
-async function changeLanguage(){
+async function changeLanguage() {
     const language = language_button.textContent.toString();
-    if(language === 'FR') await setContent('FR');
+    if (language === 'FR') await setContent('FR');
     else await setContent('EN');
 }
 
-async function setContent(language){
+async function setContent(language) {
     //Recuperation du dictionnaire du fichier json
     let content = await fetch('./json/dictionnary.json');
     let dictionnary = await content.json();
     dictionnary.forEach(element => {
         let node = document.getElementsByClassName(element['title'])[0];
-        node.textContent = element[language]; 
+        node.textContent = element[language];
     });
 
-    if(language === 'FR'){
+    if (language === 'FR') {
         // let displayMode2 = document.getElementById('display__mode');
         // let displayModeContent = displayMode2.innerText.toString();
         language_button.textContent = 'EN';
         // displayMode2.innerText = displayModeContent === 'Dark mode' ? 'Mode sombre' : 'Mode clair';
         download_link.setAttribute('href', './pdf/Ouambo_Silatchom_Sedric_CV_FR.pdf')
     }
-    else{
+    else {
         // let displayMode2 = document.getElementById('display__mode');
         // let displayModeContent = displayMode2.innerText.toString();
         language_button.textContent = 'FR';
@@ -99,21 +111,21 @@ async function setContent(language){
 
 /************************ MENU SHOW Y HIDDEN ************************/
 const navMenu = document.getElementById('nav-menu'),
-      navToggle = document.getElementById('nav-toggle'),
-      navClose = document.getElementById('nav-close');
+    navToggle = document.getElementById('nav-toggle'),
+    navClose = document.getElementById('nav-close');
 
 /************************ MENU SHOW  ************************/
 /* validate if constant esxists */
-if(navToggle){
-    navToggle.addEventListener('click', () =>{
+if (navToggle) {
+    navToggle.addEventListener('click', () => {
         navMenu.classList.add('show-menu');
     });
 }
 
 /************************ MENU HIDDEN ************************/
 /* validate if constant esxists */
-if(navClose){
-    navClose.addEventListener('click', () =>{
+if (navClose) {
+    navClose.addEventListener('click', () => {
         navMenu.classList.remove('show-menu');
     });
 }
@@ -121,7 +133,7 @@ if(navClose){
 /************************* REMOVE MENU MOBILE**********************/
 const navLink = document.querySelectorAll('.nav__link');
 
-function linkAction(){
+function linkAction() {
     const navMenu = document.getElementById('nav-menu');
     // When we click on each nav__link, we remove the show-menu class
     navMenu.classList.remove('show-menu');
@@ -130,36 +142,36 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 
 /************************* ACCORDION SKILLS**********************/
 const skillsContent = document.getElementsByClassName('skills__content'),
-      skillsHeader = document.querySelectorAll('.skills__header');
+    skillsHeader = document.querySelectorAll('.skills__header');
 
-function toggleSkills(){
+function toggleSkills() {
     let itemClass = this.parentNode.className;
-    for(i = 0; i < skillsContent.length; i++){
+    for (i = 0; i < skillsContent.length; i++) {
         skillsContent[i].className = 'skills__content skills__close';
     }
-    if(itemClass === 'skills__content skills__close'){
+    if (itemClass === 'skills__content skills__close') {
         this.parentNode.className = 'skills__content skills__open';
     }
 }
 
-skillsHeader.forEach((element) =>{
+skillsHeader.forEach((element) => {
     element.addEventListener('click', toggleSkills);
 })
 
 /************************* QUALIFICATION TABS **********************/
 const tabs = document.querySelectorAll('[data-target]'),
-      tabContents = document.querySelectorAll('[data-content]');
+    tabContents = document.querySelectorAll('[data-content]');
 
-tabs.forEach(tab =>{
-    tab.addEventListener('click', () =>{
+tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
         const target = document.querySelector(tab.dataset.target);
 
-        tabContents.forEach(tabContent =>{
+        tabContents.forEach(tabContent => {
             tabContent.classList.remove('qualification__active');
         });
         target.classList.add('qualification__active');
 
-        tabs.forEach(tab =>{
+        tabs.forEach(tab => {
             tab.classList.remove('qualification__active');
         })
         tab.classList.add('qualification__active');
@@ -168,10 +180,10 @@ tabs.forEach(tab =>{
 
 /************************* SERVICES MODAL**********************/
 const modalViews = document.querySelectorAll('.services__modal'),
-      modalBtns = document.querySelectorAll('.services__button'),
-      modalCloses = document.querySelectorAll('.services__modal-close');
+    modalBtns = document.querySelectorAll('.services__button'),
+    modalCloses = document.querySelectorAll('.services__modal-close');
 
-let modal = function(modalClick){
+let modal = function (modalClick) {
     modalViews[modalClick].classList.add('active-modal');
 }
 
@@ -183,9 +195,9 @@ modalBtns.forEach((modalBtn, i) => {
 
 modalCloses.forEach((modalClose) => {
     modalClose.addEventListener('click', () => {
-       modalViews.forEach((modalView) => {
-        modalView.classList.remove('active-modal');
-       });
+        modalViews.forEach((modalView) => {
+            modalView.classList.remove('active-modal');
+        });
     });
 });
 
@@ -194,12 +206,12 @@ let swiper = new Swiper(".portfolio__container", {
     cssMode: true,
     loop: true,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
     pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
+        el: ".swiper-pagination",
+        clickable: true,
     },
     mousewheel: true,
     keyboard: true,
@@ -207,20 +219,20 @@ let swiper = new Swiper(".portfolio__container", {
 
 /********************** PORTFOLIO MODAL *****************************/
 const portfolioDescBtns = document.querySelectorAll('.portfolio__button2'),
-      portfolioCloses = document.querySelectorAll('.portfolio__modal-close'),
-      portfolioModal = document.querySelectorAll('.portfolio__modal');
+    portfolioCloses = document.querySelectorAll('.portfolio__modal-close'),
+    portfolioModal = document.querySelectorAll('.portfolio__modal');
 
 portfolioDescBtns.forEach((btn) => {
     btn.addEventListener('click', () => {
         let id = btn.getAttribute('id');
-        let modal = document.getElementById('portfolio__modal'+id);
+        let modal = document.getElementById('portfolio__modal' + id);
         modal.classList.add('active-modal');
     });
 });
 
 portfolioCloses.forEach((btnClose) => {
     btnClose.addEventListener('click', () => {
-        portfolioModal.forEach((modal) =>{
+        portfolioModal.forEach((modal) => {
             modal.classList.remove('active-modal');
         });
     });
@@ -228,20 +240,20 @@ portfolioCloses.forEach((btnClose) => {
 
 /*********************** PORTFOLIO DISPLAY PROJECT**************************** */
 const projectsHeader = document.querySelectorAll('#project__header'),
-      projectsContent = document.querySelectorAll('#project__content');
+    projectsContent = document.querySelectorAll('#project__content');
 
-projectsHeader.forEach(projet =>{
-    projet.addEventListener('click', ()=>{
-        if(projet.nextElementSibling.classList.contains('cache')){
-            projectsContent.forEach(projetContent =>{
+projectsHeader.forEach(projet => {
+    projet.addEventListener('click', () => {
+        if (projet.nextElementSibling.classList.contains('cache')) {
+            projectsContent.forEach(projetContent => {
                 projetContent.classList.add('cache');
             });
-            projectsHeader.forEach(projetHeader =>{
+            projectsHeader.forEach(projetHeader => {
                 projetHeader.classList.remove('skills__open');
             });
-            projet.classList.add('skills__open');   
+            projet.classList.add('skills__open');
             projet.nextElementSibling.classList.remove('cache');
-        }else{
+        } else {
             projet.classList.remove('skills__open');
             projet.nextElementSibling.classList.add('cache');
         }
@@ -251,7 +263,7 @@ projectsHeader.forEach(projet =>{
 /********************** SCROLL SECTIONS ACTIVE LINK *****************************/
 const sections = document.querySelectorAll('section[id]');
 
-function scrollActive(){
+function scrollActive() {
     const scrollY = window.pageYOffset;
 
     sections.forEach(current => {
@@ -259,10 +271,10 @@ function scrollActive(){
         const sectionTop = current.offsetTop - 50;
         let sectionId = current.getAttribute('id');
 
-        if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
+        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             document.querySelector('.nav__nemu a[href*=' + sectionId + ']').classList.add('active-link');
         }
-        else{
+        else {
             document.querySelector('.nav__nemu a[href*=' + sectionId + ']').classList.remove('active-link');
         }
     });
@@ -270,23 +282,23 @@ function scrollActive(){
 window.addEventListener('scroll', scrollActive);
 
 /********************** CHANGE BACKGROUND HEADER *****************************/
-function scrollHeader(){
+function scrollHeader() {
     const nav = document.getElementById('header');
-    if(this.scrollY >= 80) {
+    if (this.scrollY >= 80) {
         nav.classList.add('scroll-header');
-    }else{
+    } else {
         nav.classList.remove('scroll-header');
     }
 }
 window.addEventListener('scroll', scrollHeader);
 
 /********************** SHOW SCROLL UP *****************************/
-function scrollUp(){
+function scrollUp() {
     const scrollUp = document.getElementById('scroll-up');
-    if(this.scrollY >= 560){
+    if (this.scrollY >= 560) {
         scrollUp.classList.add('show-scroll');
     }
-    else{
+    else {
         scrollUp.classList.remove('show-scroll');
     }
 }
@@ -306,7 +318,7 @@ const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dar
 const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun'
 
 //On valide si l'utilisateur a precedemment choisi un sujet
-if(selectedTheme){
+if (selectedTheme) {
     document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme);
     themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme);
 }
@@ -324,10 +336,10 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-them', getCurrentTheme());
     localStorage.setItem('selected-icon', getCurrentIcon());
 
-    if(getCurrentTheme() === 'dark'){
+    if (getCurrentTheme() === 'dark') {
         displayMode.innerText = displayLanguageContent === 'English' ? 'Mode clair' : 'Light mode';
     }
-    else{
+    else {
         displayMode.innerText = displayLanguageContent === 'English' ? 'Mode sombre' : 'Dark mode';
     }
 });
